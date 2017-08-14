@@ -3112,7 +3112,7 @@ take an overdose=przedawkować
 
 [Unit 12 Nauka i technika]
 archaeologist=archeolog
-archaeology=archelogia
+archeology=archeologia
 area/branch/field of science=dziedzina nauki
 astronomer=astronom
 astronomy=astronomia

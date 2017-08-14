@@ -1,0 +1,78 @@
+﻿@model LearnModel
+@{
+    ViewBag.Title = "Lerman";
+}
+
+<div class="panel panel-default text-center">
+    <div class="panel-heading">
+        <h6>@Model.Word.Category.BookName</h6>
+        <h5>@Model.Word.Category.Name</h5>
+        <h1>@Html.DisplayName(Model.Word.GetPolishPhrase()) </h1></div>
+    <div class="panel-body">
+        <a class="btn btn-info btn-lg" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            ???
+        </a>
+        <div class="collapse" id="collapseExample">
+            <p class="card-text">
+    @*<ul class="list-group list-group-flush">*@
+    @foreach (var en in Model.Word.GetEnglishPhrases())
+    {
+        @*<li class="list-group-item">@en</li>*@
+        <div class="alert alert-warning" role="alert"><h3>@en</h3></div>
+    }
+                @*</ul>*@
+            </p>
+            <a class="btn btn-warning btn-lg" type="button" href="@Url.Action(nameof(HomeController.Learn), "Home", LearnInput.Wrong(this.Model))">NIE UMIEM</a>
+            <a class="btn btn-success btn-lg" type="button" href="@Url.Action(nameof(HomeController.Learn), "Home", LearnInput.Right(this.Model))">UMIEM</a>
+        </div>
+    </div>
+    @*<div class="panel-footer"><h6>@Model.Word.Category.Name</h6></div>*@
+</div>
+
+@*<div class="jumbotron">
+
+   
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card card-body text-center">
+                    <h2 class="card-title">@Html.DisplayName(Model.GetPolishPhrase()) <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    ?
+</a></h2>
+                    <div class="collapse" id="collapseExample">
+                        <p class="card-text">
+                            <ul class="list-group list-group-flush">
+                                @foreach (var en in Model.GetEnglishPhrases())
+                                {
+                                    <li class="list-group-item">@en</li>
+                                }
+                            </ul>
+                        </p>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>*@
+
+
+
+@*<div class="row">
+    <div class="col-md-4">
+        <h2>Learn</h2>
+        <p>
+            blah blah
+        </p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Examine yourself</h2>
+        <p>even more blah blah</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Web Hosting</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+
+
+</div>*@

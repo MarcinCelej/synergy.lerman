@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Synergy.Lerman.Controllers;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
@@ -8,7 +6,7 @@ using System.Web.Routing;
 
 namespace Synergy.Lerman
 {
-    public class MvcApplication : System.Web.HttpApplication
+    public class MvcApplication : HttpApplication
     {
         protected void Application_Start()
         {
@@ -16,6 +14,9 @@ namespace Synergy.Lerman
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            var filesPath = this.Server.MapPath("~\\App_Data");
+            BookStore.Read(filesPath);
         }
     }
 }
