@@ -1,0 +1,28 @@
+﻿@model LearnModel
+@{
+    ViewBag.Title = $"Learning success '{Model.Category.Name}' from '{Model.Book.Name}'";
+}
+
+<div class="panel panel-default text-center">
+    <div class="panel-heading">
+        <h6><a type="button" role="button" class="btn btn-primary btn-sm" href="@Url.Action(nameof(HomeController.Book), "Home", new { name = @Model.Book.Name })">&laquo @Model.Book.Name</a></h6>
+        <h5>@Model.Category.Name</h5>
+        <h1>Success</h1>
+    </div>
+    <div class="panel-body text-center">
+        <div class="alert alert-success" role="alert">You have learned @Model.WordsCount words in @Model.ElapsedMinutes minutes</div>
+        <div class="alert alert-info" role="alert">Your learning speed is @(Model.SpeedDisplay)</div>
+        <div class="alert alert-danger" role="alert">You are incredible - only @(Model.PercentageSuccess)% of our users learn so fast</div>
+    </div>
+    <div class="panel-footer">
+        <div class="row">
+            <div class="col-xs-6 text-left">
+                <div class="badge">@Model.SpeedDisplay</div>
+            </div>
+            <div class="col-xs-6 text-right">
+                <span class="badge">@Model.ProgresDisplay</span>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,4 +1,4 @@
-﻿[Longman - książka]
+﻿[Longman - podstawy]
 
 [Unit 1 CZŁOWIEK]
 age=wiek 
@@ -2213,7 +2213,7 @@ sleeping bag=śpiwór
 suite=apartament
 tent=namiot
 youth hostel=schronisko młodzieżowe 
-be fully=booked nie mieć wolnych miejsc
+be fully booked =nie mieć wolnych miejsc
 check in=zameldować się
 check into a hotel=zameldować się w hotelu
 check out=wymeldować się

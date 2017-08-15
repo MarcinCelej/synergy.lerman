@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Synergy.Lerman.Controllers;
 
 namespace Synergy.Lerman.Models
 {
@@ -9,6 +9,7 @@ namespace Synergy.Lerman.Models
         public string Category { get; set; }
         public string PreviousWord { get; set; }
         public int? Result { get; set; }
+        public int? Count { get; set; }
 
         public static LearnInput New(Category category)
         {
@@ -17,6 +18,14 @@ namespace Synergy.Lerman.Models
                 Lesson = UniqueId.New("L"),
                 Book = category.BookName,
                 Category = category.Name
+            };
+        }
+
+        public static LearnInput Random()
+        {
+            return new LearnInput
+            {
+                Lesson = UniqueId.New("L")
             };
         }
 
@@ -44,7 +53,7 @@ namespace Synergy.Lerman.Models
             };
         }
 
-        public bool UserAnsweredProperly()
+        public bool UserMarkedWordAsLearned()
         {
             return this.Result == (int)Action.Right;
         }
@@ -58,7 +67,23 @@ namespace Synergy.Lerman.Models
 
     public class LearnModel
     {
-        public string LessonId { get; set; }
-        public Word Word { get; set; }
+        private Lesson lesson;
+
+        public string LessonId => this.lesson.Id;
+        public Book Book => this.lesson.Book;
+        public Category Category => this.lesson.Category;
+        public Word Word { get; }
+
+        public string ProgresDisplay => this.lesson.GetProgress();
+        public string SpeedDisplay => $"{this.lesson.GetSpeed()} / min";
+        public int WordsCount => this.lesson.WordCount;
+        public int ElapsedMinutes => this.lesson.ElapsedMinutes;
+        public int PercentageSuccess => 6;
+
+        public LearnModel(Lesson lesson)
+        {
+            this.lesson = lesson;
+            this.Word = lesson.NextWord();
+        }
     }
 }

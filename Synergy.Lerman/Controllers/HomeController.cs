@@ -1,7 +1,7 @@
 ﻿using Synergy.Contracts;
 using Synergy.Lerman.Models;
-using System.Collections.Generic;
 using System.Web.Mvc;
+using System.Web.Security;
 
 namespace Synergy.Lerman.Controllers
 {
@@ -14,9 +14,16 @@ namespace Synergy.Lerman.Controllers
             return View(books);
         }
 
+        public ActionResult Login(string user)
+        {
+            FormsAuthentication.SetAuthCookie(user, true);
+
+            return RedirectToAction(nameof(Index));
+        }
+
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page. ";
 
             return View();
         }
@@ -28,56 +35,71 @@ namespace Synergy.Lerman.Controllers
             return View();
         }
 
+        public ActionResult Books()
+        {
+            var books = BookStore.GetBooks();
+
+            return View(books);
+        }
+
+        public ActionResult Book(string name)
+        {
+            var book = BookStore.GetBook(name);
+
+            return View(book);
+        }
+
         public ActionResult Learn(LearnInput input)
         {
             Fail.IfNull(input, nameof(input));
 
-            this.PrepareLearnInput(input);
-            this.NoticePreviousAnswer(input);
+            var lesson = this.GetLesson(input);
+            lesson.NoticeAnswer(input);
+            var model = new LearnModel(lesson);
 
-            var book = BookStore.GetBook(input.Book);
-            var category = book.GetCategory(input.Category);
-            int nextWordIndex = CryptoRandom.NextIndex(category.WordsCount);
-            var word = category.Words[nextWordIndex];
-
-            var model = new LearnModel()
+            if (lesson.LearnedAll())
             {
-                LessonId = input.Lesson,
-                Word = word
-            };
+                lesson.Finished();
+
+                return this.View("Success", model);
+            }
 
             return View(model);
         }
 
-        private void PrepareLearnInput(LearnInput input)
+        private Lesson GetLesson(LearnInput input)
         {
+            var lesson = this.Session[input.Lesson] as Lesson;
+            if (lesson != null)
+                return lesson;
+
+            Book book;
+            Category category;
             if (input.Book == null)
             {
-                var randomBook = BookStore.RandomBook();
-
-                input.Book = randomBook.Name;
+                book = BookStore.RandomBook();
                 input.Category = null;
-                input.PreviousWord = null;
+            }
+            else
+            {
+                book = BookStore.GetBook(input.Book);
             }
 
             if (input.Category == null)
             {
-                var book = BookStore.GetBook(input.Book);
-
-                input.Category = book.RandomCategory().Name;
+                category = book.RandomCategory();
                 input.PreviousWord = null;
             }
-        }
-
-
-        private void NoticePreviousAnswer(LearnInput input)
-        {
-            if (input.UserAnsweredProperly() && input.PreviousWord != null)
+            else
             {
-                var answered = this.Session[input.Lesson] as List<string> ?? new List<string>(50);
-                answered.Add(input.PreviousWord);
-                this.Session[input.Lesson] = answered;
+                category = book.GetCategory(input.Category);
             }
+
+            lesson = new Lesson(input.Lesson, book, category, input.Count);
+            this.Session[input.Lesson] = lesson;
+
+            return lesson;
         }
     }
+
 }

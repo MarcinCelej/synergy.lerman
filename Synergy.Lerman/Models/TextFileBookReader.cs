@@ -12,6 +12,7 @@ namespace Synergy.Lerman.Controllers
             var lines = fileContent.Split('\n');
             Book book = null;
             Category category = null;
+            bool inverted = false;
             foreach (var line in lines.Select(l => l.Trim()))
             {
                 if (String.IsNullOrWhiteSpace(line))
@@ -26,6 +27,7 @@ namespace Synergy.Lerman.Controllers
 
                 if (line.StartsWith("["))
                 {
+                    inverted = line.EndsWith("-");
                     var name = ReadName(line);
                     category = new Category(book, name);
                     book.Categories.Add(category);
@@ -35,7 +37,16 @@ namespace Synergy.Lerman.Controllers
                 var translations = line.Split('=');
                 Fail.IfFalse(translations.Length == 2, "Something wrong with line '{0}'", line);
 
-                var word = new Word(translations[0], translations[1], category);
+                string en = translations[0];
+                string pl = translations[1];
+
+                if (inverted)
+                {
+                    pl = translations[0];
+                    en = translations[1];
+                }
+
+                var word = new Word(en, pl, category);
                 category.Words.Add(word);
             }
 
@@ -44,7 +55,7 @@ namespace Synergy.Lerman.Controllers
 
         private static string ReadName(string line)
         {
-            return line.Trim('[', ']');
+            return line.TrimEnd('-').Trim('[', ']');
         }
     }
 }

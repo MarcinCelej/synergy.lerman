@@ -1,0 +1,23 @@
+﻿@model Book
+@{
+    ViewBag.Title = "Lerman books";
+}
+
+<div>
+    <div class="panel panel-default text-center">
+        <div class="panel-heading">
+            <h1>@Model.Name</h1>
+        </div>
+        <div class="panel-body">
+            @foreach (var category in this.Model.Categories)
+            {
+                <div>
+                    <a type="button" class="btn btn-default" style="margin-bottom:10px"
+                       href="@Url.Action(nameof(HomeController.Learn), "Home", LearnInput.New(category))">
+                        @category.Name <span class="badge">@category.GetDisplayWordsCount()</span> &raquo;
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+</div>

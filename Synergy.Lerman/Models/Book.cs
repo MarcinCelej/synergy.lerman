@@ -8,6 +8,7 @@ namespace Synergy.Lerman.Models
     public class Book
     {
         public String Name { get; }
+        public String Code => this.Name.Replace(" ", "");
 
         public Book(string name)
         {
@@ -16,6 +17,11 @@ namespace Synergy.Lerman.Models
         }
 
         public List<Category> Categories { get; }
+
+        public string GetDisplayCategoriesCount()
+        {
+            return this.Categories.Count.ToString();
+        }
 
         public Category GetCategory(string category)
         {
@@ -67,7 +73,7 @@ namespace Synergy.Lerman.Models
         public string Polish { get; }
         public string English { get; }
         public List<string> Phrases { get; }
-        public Category Category { get;}
+        public Category Category { get; }
 
         private List<string> CalculateEnglishPhrases()
         {
@@ -97,7 +103,7 @@ namespace Synergy.Lerman.Models
 
         public string GetPolishPhrase()
         {
-            return this.Polish;
+            return this.Polish.Replace("/", " / ").Replace("  ", " ");
         }
 
         public List<string> GetEnglishPhrases()
