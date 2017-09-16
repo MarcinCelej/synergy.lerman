@@ -1,10 +1,10 @@
-﻿using Synergy.Lerman.Models;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System;
+using Synergy.Lerman.Realm.Books.Reading;
+using Synergy.Lerman.Realm.Infrastructure;
 
-namespace Synergy.Lerman.Controllers
+namespace Synergy.Lerman.Realm.Books
 {
     public class BookStore
     {

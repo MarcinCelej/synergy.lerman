@@ -1,11 +1,11 @@
-﻿using JetBrains.Annotations;
-using Synergy.Contracts;
-using System;
+﻿using System;
 using System.Security.Cryptography;
 using System.Threading;
 using System.Web;
+using JetBrains.Annotations;
+using Synergy.Contracts;
 
-namespace Synergy.Lerman.Models
+namespace Synergy.Lerman.Realm.Infrastructure
 {
     public static class UniqueId
     {

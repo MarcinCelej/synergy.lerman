@@ -1,11 +1,11 @@
-﻿using System;
+﻿using System.Collections.Generic;
 using System.Web;
 using System.Web.SessionState;
-using Synergy.Lerman.Controllers;
 using Synergy.Contracts;
-using System.Collections.Generic;
+using Synergy.Lerman.Realm.Books;
+using Synergy.Lerman.Realm.Lessons;
 
-namespace Synergy.Lerman.Models
+namespace Synergy.Lerman.Realm.Users
 {
     public class CurrentUser
     {
@@ -31,7 +31,7 @@ namespace Synergy.Lerman.Models
             return learned;
         }
 
-        internal static void Learned(Learning learning)
+        internal static void Learned(LearningWord learning)
         {
             if (learning.Learned == false)
                 return;

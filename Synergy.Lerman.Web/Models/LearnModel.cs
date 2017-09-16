@@ -1,9 +1,12 @@
 ﻿using JetBrains.Annotations;
 using Synergy.Lerman.Controllers;
+using Synergy.Lerman.Realm.Books;
+using Synergy.Lerman.Realm.Infrastructure;
+using Synergy.Lerman.Realm.Lessons;
 
 namespace Synergy.Lerman.Models
 {
-    public class LearnInput
+    public class LearnInputModel
     {
         public string Lesson { get; set; }
         public string Book { get; set; }
@@ -14,9 +17,9 @@ namespace Synergy.Lerman.Models
         public int? Result { get; set; }
         public int? Count { get; [UsedImplicitly] set; }
 
-        public static LearnInput New(Category category)
+        public static LearnInputModel New(Category category)
         {
-            return new LearnInput
+            return new LearnInputModel
             {
                 Lesson = UniqueId.New("L"),
                 Book = category.BookName,
@@ -24,9 +27,9 @@ namespace Synergy.Lerman.Models
             };
         }
 
-        public static LearnInput YetAnotherLesson(Lesson lesson)
+        public static LearnInputModel YetAnotherLesson(Lesson lesson)
         {
-            return new LearnInput
+            return new LearnInputModel
             {
                 Lesson = UniqueId.New("L"),
                 Book = lesson.Book.Name,
@@ -34,17 +37,17 @@ namespace Synergy.Lerman.Models
             };
         }
 
-        public static LearnInput Random()
+        public static LearnInputModel Random()
         {
-            return new LearnInput
+            return new LearnInputModel
             {
                 Lesson = UniqueId.New("L")
             };
         }
 
-        public static LearnInput Wrong(LearnModel model)
+        public static LearnInputModel Wrong(LearnModel model)
         {
-            return new LearnInput
+            return new LearnInputModel
             {
                 Lesson = model.LessonId,
                 Book = model.Word.Category.BookName,
@@ -55,9 +58,9 @@ namespace Synergy.Lerman.Models
             };
         }
 
-        public static LearnInput Right(LearnModel model)
+        public static LearnInputModel Right(LearnModel model)
         {
-            return new LearnInput
+            return new LearnInputModel
             {
                 Lesson = model.LessonId,
                 Book = model.Word.Category.BookName,
@@ -73,7 +76,7 @@ namespace Synergy.Lerman.Models
             return this.Result == (int)Action.Right;
         }
 
-        public enum Action
+        private enum Action
         {
             Right = 1,
             Wrong = 0
@@ -82,7 +85,7 @@ namespace Synergy.Lerman.Models
 
     public class LearnModel
     {
-        public Lesson Lesson;
+        public readonly Lesson Lesson;
 
         public string LessonId => this.Lesson.Id;
         public Book Book => this.Lesson.Book;

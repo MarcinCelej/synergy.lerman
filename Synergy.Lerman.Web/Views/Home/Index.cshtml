@@ -1,4 +1,4 @@
-﻿@model List<Book>
+﻿@model List<Synergy.Lerman.Realm.Books.Book>
 @{
     ViewBag.Title = "Lerman";
 }
@@ -10,7 +10,7 @@
     <div class="text-center">
         <div>
             <a type="button" role="button" class="btn btn-default btn-lg" style="margin-bottom:10px"
-               href="@Url.Action(nameof(HomeController.Learn), "Home", LearnInput.Random())">
+               href="@Url.Action(nameof(HomeController.Learn), "Home", LearnInputModel.Random())">
                 Losowa lekcja &raquo;
             </a>
         </div>

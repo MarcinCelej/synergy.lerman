@@ -3,6 +3,8 @@ using Synergy.Contracts;
 using Synergy.Lerman.Models;
 using System.Web.Mvc;
 using System.Web.Security;
+using Synergy.Lerman.Realm.Books;
+using Synergy.Lerman.Realm.Lessons;
 
 namespace Synergy.Lerman.Controllers
 {
@@ -50,19 +52,19 @@ namespace Synergy.Lerman.Controllers
             return View(book);
         }
 
-        public ActionResult Learn(LearnInput input)
+        public ActionResult Learn(LearnInputModel inputModel)
         {
-            Fail.IfNull(input, nameof(input));
+            Fail.IfNull(inputModel, nameof(inputModel));
 
-            var lesson = this.GetLesson(input);
-            if (string.IsNullOrWhiteSpace(input.Word))
+            var lesson = this.GetLesson(inputModel);
+            if (string.IsNullOrWhiteSpace(inputModel.Word))
             {
-                input.Word = lesson.NextWord().Polish;
-                return this.RedirectToAction(nameof(Learn), input);
+                inputModel.Word = lesson.NextWord().Polish;
+                return this.RedirectToAction(nameof(Learn), inputModel);
             }
 
-            lesson.NoticeAnswer(input);
-            var model = new LearnModel(lesson, input.Word);
+            lesson.NoticeAnswer(inputModel);
+            var model = new LearnModel(lesson, inputModel.Word);
 
             if (lesson.LearnedAll())
             {
@@ -75,7 +77,7 @@ namespace Synergy.Lerman.Controllers
         }
 
         [HttpGet]
-        public ActionResult Edit(EditInput input)
+        public ActionResult Edit(EditInputModel input)
         {
             var book = BookStore.GetBook(input.Book);
             var category = book.GetCategory(input.Category);
@@ -96,54 +98,54 @@ namespace Synergy.Lerman.Controllers
             word.Edit(model.Polish, model.GetEnglishPhrases().ToList());
             book.Save();
 
-            return RedirectToAction("Edit", new EditInput(word));
+            return RedirectToAction("Edit", new EditInputModel(word));
         }
 
-        private Lesson GetLesson(LearnInput input)
+        private Lesson GetLesson(LearnInputModel inputModel)
         {
             // TODO: dodaj aktualne słowo do input - żeby BACK przechodził na to samo słowo i żeby można było poprawić błąd
-            var lesson = this.Session[input.Lesson] as Lesson;
+            var lesson = this.Session[inputModel.Lesson] as Lesson;
             if (lesson != null)
                 return lesson;
 
-            var book = this.GetBookForLearning(input);
-            var category = this.GetCategoryForLearning(input, book);
+            var book = this.GetBookForLearning(inputModel);
+            var category = this.GetCategoryForLearning(inputModel, book);
 
-            lesson = new Lesson(input.Lesson, book, category, input.Count);
-            this.Session[input.Lesson] = lesson;
+            lesson = new Lesson(inputModel.Lesson, book, category, inputModel.Count);
+            this.Session[inputModel.Lesson] = lesson;
 
             return lesson;
         }
 
-        private Book GetBookForLearning(LearnInput input)
+        private Book GetBookForLearning(LearnInputModel inputModel)
         {
             Book book;
-            if (input.Book == null)
+            if (inputModel.Book == null)
             {
                 book = BookStore.RandomBook();
-                input.Book = book.Name;
-                input.Category = null;
+                inputModel.Book = book.Name;
+                inputModel.Category = null;
             }
             else
             {
-                book = BookStore.GetBook(input.Book);
+                book = BookStore.GetBook(inputModel.Book);
             }
             return book;
         }
 
-        private Category GetCategoryForLearning(LearnInput input, Book book)
+        private Category GetCategoryForLearning(LearnInputModel inputModel, Book book)
         {
             Category category;
 
-            if (input.Category == null)
+            if (inputModel.Category == null)
             {
                 category = book.RandomCategory();
-                input.Category = category.Name;
-                input.PreviousWord = null;
+                inputModel.Category = category.Name;
+                inputModel.PreviousWord = null;
             }
             else
             {
-                category = book.GetCategory(input.Category);
+                category = book.GetCategory(inputModel.Category);
             }
             return category;
         }

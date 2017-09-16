@@ -3,6 +3,7 @@ using Synergy.Lerman.Controllers;
 using Synergy.Lerman.Tests.Properties;
 using System;
 using System.Linq;
+using Synergy.Lerman.Realm.Books.Reading;
 
 namespace Synergy.Lerman.Tests.Sources
 {

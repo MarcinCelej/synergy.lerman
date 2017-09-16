@@ -20,9 +20,9 @@
                     <div class="alert alert-warning" role="alert"><h3>@en</h3></div>
                 }
             </p>
-            <a class="btn btn-danger btn-lg" type="button" href="@Url.Action(nameof(HomeController.Learn), "Home", LearnInput.Wrong(this.Model))"><span class="glyphicon glyphicon-minus" aria-hidden="true" /></a>
+            <a class="btn btn-danger btn-lg" type="button" href="@Url.Action(nameof(HomeController.Learn), "Home", LearnInputModel.Wrong(this.Model))"><span class="glyphicon glyphicon-minus" aria-hidden="true" /></a>
             &nbsp;&nbsp;&nbsp;&nbsp;
-            <a class="btn btn-success btn-lg" type="button" href="@Url.Action(nameof(HomeController.Learn), "Home", LearnInput.Right(this.Model))"><span class="glyphicon glyphicon-ok" aria-hidden="true" /></a>
+            <a class="btn btn-success btn-lg" type="button" href="@Url.Action(nameof(HomeController.Learn), "Home", LearnInputModel.Right(this.Model))"><span class="glyphicon glyphicon-ok" aria-hidden="true" /></a>
         </div>
     </div>
     <div class="panel-footer">

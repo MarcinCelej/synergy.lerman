@@ -104,7 +104,7 @@
     <Content Include="Sources\longman.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Synergy.Lerman\Synergy.Lerman.Web.csproj">
+    <ProjectReference Include="..\Synergy.Lerman.Web\Synergy.Lerman.Web.csproj">
       <Project>{8CB472F9-8F9B-464D-9D7F-A4CF64910CC7}</Project>
       <Name>Synergy.Lerman.Web</Name>
     </ProjectReference>

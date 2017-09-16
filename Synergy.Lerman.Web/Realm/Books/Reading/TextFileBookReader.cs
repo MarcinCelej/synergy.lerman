@@ -1,9 +1,8 @@
-﻿using Synergy.Contracts;
-using Synergy.Lerman.Models;
-using System;
+﻿using System;
 using System.Linq;
+using Synergy.Contracts;
 
-namespace Synergy.Lerman.Controllers
+namespace Synergy.Lerman.Realm.Books.Reading
 {
     public class TextFileBookReader
     {

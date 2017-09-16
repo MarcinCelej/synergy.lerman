@@ -1,4 +1,4 @@
-﻿@model Book
+﻿@model Synergy.Lerman.Realm.Books.Book
 @{
     ViewBag.Title = "Lerman books";
 }
@@ -13,7 +13,7 @@
             {
                 <div>
                     <a type="button" class="btn btn-default" style="margin-bottom:10px"
-                       href="@Url.Action(nameof(HomeController.Learn), "Home", LearnInput.New(category))">
+                       href="@Url.Action(nameof(HomeController.Learn), "Home", LearnInputModel.New(category))">
                         @category.Name <span class="badge">@category.GetDisplayWordsCount()</span> &raquo;
                     </a>
                 </div>

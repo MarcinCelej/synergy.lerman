@@ -1,10 +1,12 @@
-﻿using Synergy.Contracts;
-using Synergy.Lerman.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Synergy.Lerman.Models;
+using Synergy.Lerman.Realm.Books;
+using Synergy.Lerman.Realm.Infrastructure;
+using Synergy.Lerman.Realm.Users;
 
-namespace Synergy.Lerman.Controllers
+namespace Synergy.Lerman.Realm.Lessons
 {
     public class Lesson
     {
@@ -14,7 +16,7 @@ namespace Synergy.Lerman.Controllers
 
         private List<Word> toLearn;
         private List<Word> learned;
-        private List<Learning> learning;
+        private List<LearningWord> learning;
         private Word lastWord;
 
         public DateTime StartedOn { get; }
@@ -40,7 +42,7 @@ namespace Synergy.Lerman.Controllers
             int noOfWords = count ?? 30;
             this.toLearn = new List<Word>(noOfWords);
             this.learned = new List<Word>(noOfWords);
-            this.learning = new List<Learning>();
+            this.learning = new List<LearningWord>();
 
             this.PrepareWords(category, noOfWords);
             this.StartedOn = DateTime.Now;
@@ -92,18 +94,18 @@ namespace Synergy.Lerman.Controllers
             return (int)(this.learned.Count / this.ElapsedMinutes);
         }
 
-        public void NoticeAnswer(LearnInput input)
+        public void NoticeAnswer(LearnInputModel inputModel)
         {
-            if (input.PreviousWord == null)
+            if (inputModel.PreviousWord == null)
                 return;
 
-            var word = this.toLearn.FirstOrDefault(w => w.Polish == input.PreviousWord);
+            var word = this.toLearn.FirstOrDefault(w => w.Polish == inputModel.PreviousWord);
             if (word == null)
                 return;
 
-            Learning learning = NoticeLearningOf(word);
+            LearningWord learning = NoticeLearningOf(word);
 
-            if (input.UserMarkedWordAsLearned())
+            if (inputModel.UserMarkedWordAsLearned())
             {
                 this.toLearn.Remove(word);
                 this.learned.Add(word);
@@ -126,12 +128,12 @@ namespace Synergy.Lerman.Controllers
                 //;
         }
 
-        private Learning NoticeLearningOf(Word word)
+        private LearningWord NoticeLearningOf(Word word)
         {
             var learning = this.learning.FirstOrDefault(m => m.Word.Polish == word.Polish);
             if (learning == null)
             {
-                learning = new Learning(word);
+                learning = new LearningWord(word);
                 this.learning.Add(learning);
             }
 
@@ -146,18 +148,6 @@ namespace Synergy.Lerman.Controllers
         internal void Finished()
         {
             this.FinishedOn = DateTime.Now;
-        }
-    }
-
-    public class Learning
-    {
-        public Word Word;
-        public int Mistakes;
-        public bool Learned;
-
-        public Learning(Word word)
-        {
-            this.Word = word;
         }
     }
 }
