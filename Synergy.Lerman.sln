@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synergy.Lerman", "Synergy.Lerman\Synergy.Lerman.csproj", "{8CB472F9-8F9B-464D-9D7F-A4CF64910CC7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synergy.Lerman.Web", "Synergy.Lerman\Synergy.Lerman.Web.csproj", "{8CB472F9-8F9B-464D-9D7F-A4CF64910CC7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synergy.Lerman.Tests", "Synergy.Lerman.Tests\Synergy.Lerman.Tests.csproj", "{0213E134-F17A-4AAF-82EA-81AB0D211A34}"
 EndProject

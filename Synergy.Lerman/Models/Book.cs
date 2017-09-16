@@ -1,6 +1,9 @@
-﻿using System;
+﻿using Synergy.Contracts;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Text;
 using System.Text.RegularExpressions;
 
 namespace Synergy.Lerman.Models
@@ -9,6 +12,7 @@ namespace Synergy.Lerman.Models
     {
         public String Name { get; }
         public String Code => this.Name.Replace(" ", "");
+        public string FilePath { get; set; }
 
         public Book(string name)
         {
@@ -23,6 +27,11 @@ namespace Synergy.Lerman.Models
             return this.Categories.Count.ToString();
         }
 
+        internal void WasReadFromFile(string filePath)
+        {
+            this.FilePath = filePath;
+        }
+
         public Category GetCategory(string category)
         {
             return this.Categories.First(c => c.Name == category);
@@ -32,6 +41,27 @@ namespace Synergy.Lerman.Models
         {
             int bookIndex = CryptoRandom.NextIndex(Categories.Count);
             return Categories[bookIndex];
+        }
+
+        internal void Save()
+        {
+            StringBuilder content = new StringBuilder();
+            content.AppendLine($"[{this.Name}]");
+
+            foreach (var category in this.Categories)
+            {
+                content.AppendLine();
+                content.AppendLine($"[{category.Name}]");
+
+                foreach (var word in category.Words)
+                {
+                    var en = String.Join("|", word.GetEnglishPhrases());
+                    var pl = word.GetPolishPhrase();
+                    content.AppendLine($"{en} = {pl}");
+                }
+            }
+
+            File.WriteAllText(this.FilePath, content.ToString(), Encoding.UTF8);
         }
     }
 
@@ -58,6 +88,31 @@ namespace Synergy.Lerman.Models
             this.Name = name;
             this.Words = new List<Word>();
         }
+
+        public Word GetWord(string polish)
+        {
+            return this.Words
+                .FirstOrDefault(w => w.Polish == polish)
+                .FailIfNull("There is no '{0}' in [{1}/{2}]", polish, this.BookName, this.Name);
+        }
+
+        internal Word GetPreviousWord(Word word)
+        {
+            var index = this.Words.IndexOf(word) - 1;
+            if (index < 0)
+                index = this.Words.Count - 1;
+
+            return this.Words[index];
+        }
+
+        internal Word GetNextWord(Word word)
+        {
+            var index = this.Words.IndexOf(word) + 1;
+            if (index >= this.Words.Count)
+                index = 0;
+
+            return this.Words[index];
+        }
     }
 
     public class Word
@@ -70,10 +125,11 @@ namespace Synergy.Lerman.Models
             this.Category = category;
         }
 
-        public string Polish { get; }
-        public string English { get; }
-        public List<string> Phrases { get; }
         public Category Category { get; }
+
+        public string Polish { get; private set; }
+        private string English { get; set; }
+        private List<string> Phrases { get; set; }
 
         private List<string> CalculateEnglishPhrases()
         {
@@ -85,7 +141,7 @@ namespace Synergy.Lerman.Models
                 MatchCollection matches = regex.Matches(version);
                 foreach (var match in matches)
                 {
-                    var optionalPart = (match as Match).Value;
+                    var optionalPart = ((Match) match).Value;
                     var options = optionalPart.Split('/');
                     foreach (var option in options)
                     {
@@ -101,6 +157,13 @@ namespace Synergy.Lerman.Models
             return phrases;
         }
 
+        public void Edit(string polish, List<string> phrases)
+        {
+            this.Polish = polish;
+            this.Phrases = phrases;
+            this.English = String.Join("|", phrases);
+        }
+
         public string GetPolishPhrase()
         {
             return this.Polish.Replace("/", " / ").Replace("  ", " ");
@@ -110,5 +173,16 @@ namespace Synergy.Lerman.Models
         {
             return this.Phrases;
         }
+
+        public string GetEnglishPhrase(int index)
+        {
+            var en = this.GetEnglishPhrases();
+            if (index >= en.Count)
+                return null;
+
+            return en[index];
+        }
     }
+
+
 }

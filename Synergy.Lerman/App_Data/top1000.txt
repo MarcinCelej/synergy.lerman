@@ -1,7 +1,7 @@
 ﻿[Top 1000 słów]
 
 [1-100]
-name = nazwa, nazwisko
+name = nazwa, nazwisko 1
 very = bardzo
 to = do, ku, na, po, za, dla, przy, aby, żeby
 through = przez
@@ -18,7 +18,7 @@ think = myśleć, uważać
 you = ty
 say = mówić, powiedzieć
 that = że, ten ,tamten , to , który
-help = pomoc, pomagać
+help = pomoc, pomagać, pomóc
 he = on
 low = niski, cichy, nisko, cicho, przygnębiony
 was = być w czasie przeszłym w 1. i 3. osobie liczby pojedynczej
@@ -83,7 +83,7 @@ there = tam
 large = olbrzymi
 when = kiedy, gdy
 spell = zaklęcie, literować
-up = na
+up = w górę
 add = dodac
 use = używać, użycie
 even = nawet, równy

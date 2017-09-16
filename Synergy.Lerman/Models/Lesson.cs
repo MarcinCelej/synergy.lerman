@@ -1,4 +1,5 @@
-﻿using Synergy.Lerman.Models;
+﻿using Synergy.Contracts;
+using Synergy.Lerman.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,7 @@ namespace Synergy.Lerman.Controllers
 
         private List<Word> toLearn;
         private List<Word> learned;
-        private List<Mistake> mistakes;
+        private List<Learning> learning;
         private Word lastWord;
 
         public DateTime StartedOn { get; }
@@ -39,7 +40,7 @@ namespace Synergy.Lerman.Controllers
             int noOfWords = count ?? 30;
             this.toLearn = new List<Word>(noOfWords);
             this.learned = new List<Word>(noOfWords);
-            this.mistakes = new List<Mistake>();
+            this.learning = new List<Learning>();
 
             this.PrepareWords(category, noOfWords);
             this.StartedOn = DateTime.Now;
@@ -47,7 +48,14 @@ namespace Synergy.Lerman.Controllers
 
         private void PrepareWords(Category category, int count)
         {
-            var allWords = category.Words.ToList();
+            List<Word> wordsAlreadyLearned = CurrentUser.GetLearnedWords();
+            var allWords = category.Words.Except(wordsAlreadyLearned).ToList();
+            if (allWords.Count == 0)
+            {
+                // TODO: Losuj spośród pomyłek 
+                allWords = category.Words.ToList();
+            }
+
             var noOfWordsInLesson = Math.Min(count, allWords.Count);
             for (int i = 0; i < noOfWordsInLesson; i++)
             {
@@ -93,22 +101,41 @@ namespace Synergy.Lerman.Controllers
             if (word == null)
                 return;
 
+            Learning learning = NoticeLearningOf(word);
+
             if (input.UserMarkedWordAsLearned())
             {
                 this.toLearn.Remove(word);
                 this.learned.Add(word);
+                learning.Learned = true;
             }
-            else 
+            else
             {
-                var mistake = this.mistakes.FirstOrDefault(m => m.Word.Polish == input.PreviousWord);
-                if (mistake == null)
-                {
-                    mistake = new Mistake(word);
-                    this.mistakes.Add(mistake);
-                }
-
-                mistake.Count++;
+                learning.Mistakes++;
             }
+
+            CurrentUser.Learned(learning);
+        }
+
+        internal Word GetWord(string polish)
+        {
+            return this.Category.GetWord(polish);
+                //.FirstOrDefault(w => w.Word.Polish == polish)
+                //?.Word
+                //.FailIfNull("There is no '{0} in lesson {1}", polish, this.Id)
+                //;
+        }
+
+        private Learning NoticeLearningOf(Word word)
+        {
+            var learning = this.learning.FirstOrDefault(m => m.Word.Polish == word.Polish);
+            if (learning == null)
+            {
+                learning = new Learning(word);
+                this.learning.Add(learning);
+            }
+
+            return learning;
         }
 
         public bool LearnedAll()
@@ -120,16 +147,17 @@ namespace Synergy.Lerman.Controllers
         {
             this.FinishedOn = DateTime.Now;
         }
+    }
 
-        private class Mistake
+    public class Learning
+    {
+        public Word Word;
+        public int Mistakes;
+        public bool Learned;
+
+        public Learning(Word word)
         {
-            public Word Word;
-            public int Count;
-
-            public Mistake(Word word)
-            {
-                this.Word = word;
-            }
+            this.Word = word;
         }
     }
 }

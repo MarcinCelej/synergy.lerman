@@ -18,6 +18,7 @@ namespace Synergy.Lerman.Controllers
             {
                 var fileContent = File.ReadAllText(filePath);
                 var book = TextFileBookReader.Read(fileContent);
+                book.WasReadFromFile(filePath);
                 books.Add(book.Name, book);
             }
         }

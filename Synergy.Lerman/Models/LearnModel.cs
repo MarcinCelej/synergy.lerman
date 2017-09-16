@@ -1,4 +1,5 @@
-﻿using Synergy.Lerman.Controllers;
+﻿using JetBrains.Annotations;
+using Synergy.Lerman.Controllers;
 
 namespace Synergy.Lerman.Models
 {
@@ -7,9 +8,11 @@ namespace Synergy.Lerman.Models
         public string Lesson { get; set; }
         public string Book { get; set; }
         public string Category { get; set; }
+        public string Word { get; set; }
+
         public string PreviousWord { get; set; }
         public int? Result { get; set; }
-        public int? Count { get; set; }
+        public int? Count { get; [UsedImplicitly] set; }
 
         public static LearnInput New(Category category)
         {
@@ -18,6 +21,16 @@ namespace Synergy.Lerman.Models
                 Lesson = UniqueId.New("L"),
                 Book = category.BookName,
                 Category = category.Name
+            };
+        }
+
+        public static LearnInput YetAnotherLesson(Lesson lesson)
+        {
+            return new LearnInput
+            {
+                Lesson = UniqueId.New("L"),
+                Book = lesson.Book.Name,
+                Category = lesson.Category.Name
             };
         }
 
@@ -36,6 +49,7 @@ namespace Synergy.Lerman.Models
                 Lesson = model.LessonId,
                 Book = model.Word.Category.BookName,
                 Category = model.Word.Category.Name,
+                Word = model.Lesson.NextWord().Polish,
                 PreviousWord = model.Word.Polish,
                 Result = (int)Action.Wrong,
             };
@@ -48,6 +62,7 @@ namespace Synergy.Lerman.Models
                 Lesson = model.LessonId,
                 Book = model.Word.Category.BookName,
                 Category = model.Word.Category.Name,
+                Word = model.Lesson.NextWord().Polish,
                 PreviousWord = model.Word.Polish,
                 Result = (int)Action.Right,
             };
@@ -67,23 +82,23 @@ namespace Synergy.Lerman.Models
 
     public class LearnModel
     {
-        private Lesson lesson;
+        public Lesson Lesson;
 
-        public string LessonId => this.lesson.Id;
-        public Book Book => this.lesson.Book;
-        public Category Category => this.lesson.Category;
+        public string LessonId => this.Lesson.Id;
+        public Book Book => this.Lesson.Book;
+        public Category Category => this.Lesson.Category;
         public Word Word { get; }
 
-        public string ProgresDisplay => this.lesson.GetProgress();
-        public string SpeedDisplay => $"{this.lesson.GetSpeed()} / min";
-        public int WordsCount => this.lesson.WordCount;
-        public int ElapsedMinutes => this.lesson.ElapsedMinutes;
+        public string ProgresDisplay => this.Lesson.GetProgress();
+        public string SpeedDisplay => $"{this.Lesson.GetSpeed()} / min";
+        public int WordsCount => this.Lesson.WordCount;
+        public int ElapsedMinutes => this.Lesson.ElapsedMinutes;
         public int PercentageSuccess => 6;
 
-        public LearnModel(Lesson lesson)
+        public LearnModel(Lesson lesson, string word)
         {
-            this.lesson = lesson;
-            this.Word = lesson.NextWord();
+            this.Lesson = lesson;
+            this.Word = lesson.GetWord(word);
         }
     }
 }

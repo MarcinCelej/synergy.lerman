@@ -1,6 +1,6 @@
 ﻿@model LearnModel
 @{
-    ViewBag.Title = $"Learning lesson '{Model.Category.Name}' from '{Model.Book.Name}'";
+    ViewBag.Title = string.Format("Learning lesson '{0}' from '{1}'", Model.Category.Name, Model.Book.Name);
 }
 
 <div class="panel panel-default text-center">
@@ -36,6 +36,9 @@
         </div>
     </div>
 </div>
+
+
+
 @*<div class="jumbotron">
 
 

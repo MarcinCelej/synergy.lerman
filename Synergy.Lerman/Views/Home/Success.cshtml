@@ -1,6 +1,6 @@
 ﻿@model LearnModel
 @{
-    ViewBag.Title = $"Learning success '{Model.Category.Name}' from '{Model.Book.Name}'";
+    ViewBag.Title = string.Format("Learning success '{0}' from '{1}'", Model.Category.Name, Model.Book.Name);
 }
 
 <div class="panel panel-default text-center">
@@ -13,6 +13,12 @@
         <div class="alert alert-success" role="alert">You have learned @Model.WordsCount words in @Model.ElapsedMinutes minutes</div>
         <div class="alert alert-info" role="alert">Your learning speed is @(Model.SpeedDisplay)</div>
         <div class="alert alert-danger" role="alert">You are incredible - only @(Model.PercentageSuccess)% of our users learn so fast</div>
+        <div>
+            <a type="button" class="btn btn-default btn-lg" style="margin-bottom:10px"
+               href="@Url.Action(nameof(HomeController.Learn), "Home", LearnInput.YetAnotherLesson(Model.Lesson))">
+                <span class="glyphicon glyphicon-retweet" aria-hidden="true" ></span> Yet another lesson?
+            </a>
+        </div>
     </div>
     <div class="panel-footer">
         <div class="row">
@@ -25,4 +31,11 @@
         </div>
     </div>
 </div>
+
+@*<div class="text-center">
+        <a type="button" class="btn btn-default btn-lg" style="margin-bottom:10px"
+           href="@Url.Action(nameof(HomeController.Learn), "Home", LearnInput.YetAnotherLesson(Model.Lesson))">
+            Yet another lesson
+        </a>
+    </div>*@
 
