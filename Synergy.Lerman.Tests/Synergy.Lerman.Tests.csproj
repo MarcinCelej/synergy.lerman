@@ -101,7 +101,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
+    <Content Include="Sources\Focus2.txt" />
+    <Content Include="Sources\irregular.txt" />
     <Content Include="Sources\longman.txt" />
+    <Content Include="Sources\longman2.txt" />
+    <Content Include="Sources\longman3.txt" />
+    <Content Include="Sources\top1000.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Synergy.Lerman.Web\Synergy.Lerman.Web.csproj">
