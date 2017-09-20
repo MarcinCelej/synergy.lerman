@@ -151,7 +151,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\EditController.cs" />
     <Compile Include="Infrastructure\EventStore.cs" />
+    <Compile Include="Realm\Books\Reading\BookReader.cs" />
+    <Compile Include="Realm\Books\Reading\JsonFileBookReader.cs" />
     <Compile Include="Realm\Users\CurrentUser.cs" />
     <Compile Include="Models\EditModel.cs" />
     <Compile Include="Realm\Lessons\LearningWord.cs" />
@@ -229,6 +232,7 @@
     <Content Include="Views\Home\Book.cshtml" />
     <Content Include="Views\Home\Success.cshtml" />
     <Content Include="Views\Home\Edit.cshtml" />
+    <Content Include="Views\Edit\Book.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

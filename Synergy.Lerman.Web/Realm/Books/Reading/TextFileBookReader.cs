@@ -1,12 +1,21 @@
 ﻿using System;
+using System.IO;
 using System.Linq;
+using System.Text;
 using Synergy.Contracts;
 
 namespace Synergy.Lerman.Realm.Books.Reading
 {
-    public class TextFileBookReader
+    public class TextFileBookReader: IBookReader
     {
-        public static Book Read(string fileContent)
+        private readonly string filePath;
+
+        public TextFileBookReader(string filePath)
+        {
+            this.filePath = filePath;
+        }
+
+        public Book Read(string fileContent)
         {
             var lines = fileContent.Split('\n');
             Book book = null;
@@ -77,6 +86,27 @@ namespace Synergy.Lerman.Realm.Books.Reading
         private static string ReadName(string line)
         {
             return line.TrimEnd('-').Trim('[', ']');
+        }
+
+        public void Save(Book book)
+        {
+            StringBuilder content = new StringBuilder();
+            content.AppendLine($"[{book.Name}]");
+
+            foreach (var category in book.Categories)
+            {
+                content.AppendLine();
+                content.AppendLine($"[{category.Name}]");
+
+                foreach (var word in category.Words)
+                {
+                    var en = String.Join("|", word.GetEnglishTexts());
+                    var pl = word.GetPolishPhrase();
+                    content.AppendLine($"{en} = {pl}");
+                }
+            }
+
+            File.WriteAllText(this.filePath, content.ToString(), Encoding.UTF8);
         }
     }
 }

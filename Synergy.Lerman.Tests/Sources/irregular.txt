@@ -1,0 +1,2104 @@
+﻿{
+  "id": "Czasowniki nieregularne",
+  "name": "Czasowniki nieregularne",
+  "categories": [
+    {
+      "name": "Poziom podstawowy",
+      "words": [
+        {
+          "pl": "obudzić",
+          "en": [
+            {
+              "text": "awake awoke awoken",
+              "sound": "https://www.diki.pl/images-common/en/mp3/awake_awoke_awoken.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "być",
+          "en": [
+            {
+              "text": "be was(were) been",
+              "sound": null
+            }
+          ]
+        },
+        {
+          "pl": "zbić",
+          "en": [
+            {
+              "text": "beat beat beaten",
+              "sound": "https://www.diki.pl/images-common/en/mp3/beat_beat_beaten.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "stawać się",
+          "en": [
+            {
+              "text": "become became become",
+              "sound": "https://www.diki.pl/images-common/en/mp3/become_became_become.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zaczynać",
+          "en": [
+            {
+              "text": "begin began begun",
+              "sound": "https://www.diki.pl/images-common/en/mp3/begin_began_begun.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "ugryźć",
+          "en": [
+            {
+              "text": "bite bit bitten",
+              "sound": "https://www.diki.pl/images-common/en/mp3/bite_bit_bitten.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "wiać, dmuchać",
+          "en": [
+            {
+              "text": "blow blew blown",
+              "sound": "https://www.diki.pl/images-common/en/mp3/blow_blew_blown.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "łamać",
+          "en": [
+            {
+              "text": "break broke broken",
+              "sound": "https://www.diki.pl/images-common/en/mp3/break_broke_broken.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "przynosić",
+          "en": [
+            {
+              "text": "bring brought brought",
+              "sound": "https://www.diki.pl/images-common/en/mp3/bring_brought_brought.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "budować",
+          "en": [
+            {
+              "text": "build built built",
+              "sound": "https://www.diki.pl/images-common/en/mp3/build_built_built.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "palić, parzyć",
+          "en": [
+            {
+              "text": "burn burnt burnt",
+              "sound": "https://www.diki.pl/images-common/en/mp3/burn_burnt_burnt.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kupować",
+          "en": [
+            {
+              "text": "buy bought bought",
+              "sound": "https://www.diki.pl/images-common/en/mp3/buy_bought_bought.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "łapać",
+          "en": [
+            {
+              "text": "catch caught caught",
+              "sound": "https://www.diki.pl/images-common/en/mp3/catch_caught_caught.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "wybierać",
+          "en": [
+            {
+              "text": "choose chose chosen",
+              "sound": "https://www.diki.pl/images-common/en/mp3/choose_chose_chosen.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "przyjść, przyjechać",
+          "en": [
+            {
+              "text": "come came come",
+              "sound": "https://www.diki.pl/images-common/en/mp3/come_came_come.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kosztować",
+          "en": [
+            {
+              "text": "cost cost cost",
+              "sound": "https://www.diki.pl/images-common/en/mp3/cost_cost_cost.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "ciąć, kroić",
+          "en": [
+            {
+              "text": "cut cut cut",
+              "sound": "https://www.diki.pl/images-common/en/mp3/cut_cut_cut.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kopać",
+          "en": [
+            {
+              "text": "dig dug dug",
+              "sound": "https://www.diki.pl/images-common/en/mp3/dig_dug_dug.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "robić",
+          "en": [
+            {
+              "text": "do did done",
+              "sound": "https://www.diki.pl/images-common/en/mp3/do_did_done.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "rysować, pociągnąć",
+          "en": [
+            {
+              "text": "draw drew drawn",
+              "sound": "https://www.diki.pl/images-common/en/mp3/draw_drew_drawn.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "śnić, marzyć",
+          "en": [
+            {
+              "text": "dream dreamt dreamt",
+              "sound": "https://www.diki.pl/images-common/en/mp3/dream_dreamt_dreamt.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pić",
+          "en": [
+            {
+              "text": "drink drank drunk",
+              "sound": "https://www.diki.pl/images-common/en/mp3/drink_drank_drunk.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "prowadzić, kierować się czymś",
+          "en": [
+            {
+              "text": "drive drove driven",
+              "sound": "https://www.diki.pl/images-common/en/mp3/drive_drove_driven.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "jeść",
+          "en": [
+            {
+              "text": "eat ate eaten",
+              "sound": "https://www.diki.pl/images-common/en/mp3/eat_ate_eaten.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "padać, upadać, spadać",
+          "en": [
+            {
+              "text": "fall fell fallen",
+              "sound": "https://www.diki.pl/images-common/en/mp3/fall_fell_fallen.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "karmić, żywić",
+          "en": [
+            {
+              "text": "feed fed fed",
+              "sound": "https://www.diki.pl/images-common/en/mp3/feed_fed_fed.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "czuć",
+          "en": [
+            {
+              "text": "feel felt felt",
+              "sound": "https://www.diki.pl/images-common/en/mp3/feel_felt_felt.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "walczyć, bić się",
+          "en": [
+            {
+              "text": "fight fought fought",
+              "sound": "https://www.diki.pl/images-common/en/mp3/fight_fought_fought.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "znaleźć",
+          "en": [
+            {
+              "text": "find found found",
+              "sound": "https://www.diki.pl/images-common/en/mp3/find_found_found.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "latać",
+          "en": [
+            {
+              "text": "fly flew flown",
+              "sound": "https://www.diki.pl/images-common/en/mp3/fly_flew_flown.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zabraniać",
+          "en": [
+            {
+              "text": "forbid forbade forbidden",
+              "sound": "https://www.diki.pl/images-common/en/mp3/forbid_forbade_forbidden.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zapominać",
+          "en": [
+            {
+              "text": "forget forgot forgotten",
+              "sound": "https://www.diki.pl/images-common/en/mp3/forget_forgot_forgotten.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "wybaczać",
+          "en": [
+            {
+              "text": "forgive forgave forgiven",
+              "sound": "https://www.diki.pl/images-common/en/mp3/forgive_forgave_forgiven.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "dostawać",
+          "en": [
+            {
+              "text": "get got got",
+              "sound": "https://www.diki.pl/images-common/en/mp3/get_got_got.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "dawać",
+          "en": [
+            {
+              "text": "give gave given",
+              "sound": "https://www.diki.pl/images-common/en/mp3/give_gave_given.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "iść",
+          "en": [
+            {
+              "text": "go went gone",
+              "sound": "https://www.diki.pl/images-common/en/mp3/go_went_gone.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "rosnąć",
+          "en": [
+            {
+              "text": "grow grew grown",
+              "sound": "https://www.diki.pl/images-common/en/mp3/grow_grew_grown.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "mieć",
+          "en": [
+            {
+              "text": "have had had",
+              "sound": "https://www.diki.pl/images-common/en/mp3/have_had_had.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "słyszeć",
+          "en": [
+            {
+              "text": "hear heard heard",
+              "sound": "https://www.diki.pl/images-common/en/mp3/hear_heard_heard.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "chować, ukrywać",
+          "en": [
+            {
+              "text": "hide hid hidden",
+              "sound": "https://www.diki.pl/images-common/en/mp3/hide_hid_hidden.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "uderzać",
+          "en": [
+            {
+              "text": "hit hit hit",
+              "sound": "https://www.diki.pl/images-common/en/mp3/hit_hit_hit.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "trzymać, utrzymywać",
+          "en": [
+            {
+              "text": "hold held held",
+              "sound": "https://www.diki.pl/images-common/en/mp3/hold_held_held.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "ranić, boleć",
+          "en": [
+            {
+              "text": "hurt hurt hurt",
+              "sound": "https://www.diki.pl/images-common/en/mp3/hurt_hurt_hurt.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "trzymać",
+          "en": [
+            {
+              "text": "keep kept kept",
+              "sound": "https://www.diki.pl/images-common/en/mp3/keep_kept_kept.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "znać, wiedzieć",
+          "en": [
+            {
+              "text": "know knew known",
+              "sound": "https://www.diki.pl/images-common/en/mp3/know_knew_known.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "położyć, kłaść",
+          "en": [
+            {
+              "text": "lay laid laid",
+              "sound": "https://www.diki.pl/images-common/en/mp3/lay_laid_laid.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "prowadzić",
+          "en": [
+            {
+              "text": "lead led led",
+              "sound": "https://www.diki.pl/images-common/en/mp3/lead_led_led.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "uczyć się",
+          "en": [
+            {
+              "text": "learn learnt learnt",
+              "sound": "https://www.diki.pl/images-common/en/mp3/learn_learnt_learnt.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "opuszczać, wyjeżdżać",
+          "en": [
+            {
+              "text": "leave left left",
+              "sound": "https://www.diki.pl/images-common/en/mp3/leave_left_left.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pożyczać",
+          "en": [
+            {
+              "text": "lend lent lent",
+              "sound": "https://www.diki.pl/images-common/en/mp3/lend_lent_lent.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pozwalać",
+          "en": [
+            {
+              "text": "let let let",
+              "sound": "https://www.diki.pl/images-common/en/mp3/let_let_let.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "leżeć, kłaść się",
+          "en": [
+            {
+              "text": "lie lay lain",
+              "sound": "https://www.diki.pl/images-common/en/mp3/lie_lay_lain.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "tracić",
+          "en": [
+            {
+              "text": "lose lost lost",
+              "sound": "https://www.diki.pl/images-common/en/mp3/lose_lost_lost.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "robić",
+          "en": [
+            {
+              "text": "make made made",
+              "sound": "https://www.diki.pl/images-common/en/mp3/make_made_made.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "znaczyć, oznaczać",
+          "en": [
+            {
+              "text": "mean meant meant",
+              "sound": "https://www.diki.pl/images-common/en/mp3/mean_meant_meant.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "spotykać",
+          "en": [
+            {
+              "text": "meet met met",
+              "sound": "https://www.diki.pl/images-common/en/mp3/meet_met_met.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "płacić",
+          "en": [
+            {
+              "text": "pay paid paid",
+              "sound": "https://www.diki.pl/images-common/en/mp3/pay_paid_paid.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kłaść",
+          "en": [
+            {
+              "text": "put put put",
+              "sound": "https://www.diki.pl/images-common/en/mp3/put_put_put.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "czytać",
+          "en": [
+            {
+              "text": "read read read",
+              "sound": "https://www.diki.pl/images-common/en/mp3/read_read_read.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "jeździć",
+          "en": [
+            {
+              "text": "ride rode ridden",
+              "sound": "https://www.diki.pl/images-common/en/mp3/ride_rode_ridden.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "dzwonić",
+          "en": [
+            {
+              "text": "ring rang rung",
+              "sound": "https://www.diki.pl/images-common/en/mp3/ring_rang_rung.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "podnosić się, wzrastać",
+          "en": [
+            {
+              "text": "rise rose risen",
+              "sound": "https://www.diki.pl/images-common/en/mp3/rise_rose_risen.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "biec",
+          "en": [
+            {
+              "text": "run ran run",
+              "sound": "https://www.diki.pl/images-common/en/mp3/run_ran_run.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "mówić",
+          "en": [
+            {
+              "text": "say said said",
+              "sound": "https://www.diki.pl/images-common/en/mp3/say_said_said.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "widzieć",
+          "en": [
+            {
+              "text": "see saw seen",
+              "sound": "https://www.diki.pl/images-common/en/mp3/see_saw_seen.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "sprzedawać",
+          "en": [
+            {
+              "text": "sell sold sold",
+              "sound": "https://www.diki.pl/images-common/en/mp3/sell_sold_sold.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "wysyłać, słać",
+          "en": [
+            {
+              "text": "send sent sent",
+              "sound": "https://www.diki.pl/images-common/en/mp3/send_sent_sent.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "umieszczać, ustawiać",
+          "en": [
+            {
+              "text": "set set set",
+              "sound": "https://www.diki.pl/images-common/en/mp3/set_set_set.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "świecić, błyszczeć",
+          "en": [
+            {
+              "text": "shine shone shone",
+              "sound": "https://www.diki.pl/images-common/en/mp3/shine_shone_shone.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "strzelać",
+          "en": [
+            {
+              "text": "shoot shot shot",
+              "sound": "https://www.diki.pl/images-common/en/mp3/shoot_shot_shot.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pokazywać",
+          "en": [
+            {
+              "text": "show showed shown",
+              "sound": "https://www.diki.pl/images-common/en/mp3/show_showed_shown.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zamykać",
+          "en": [
+            {
+              "text": "shut shut shut",
+              "sound": "https://www.diki.pl/images-common/en/mp3/shut_shut_shut.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "śpiewać",
+          "en": [
+            {
+              "text": "sing sang sung",
+              "sound": "https://www.diki.pl/images-common/en/mp3/sing_sang_sung.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "siedzieć, siadać",
+          "en": [
+            {
+              "text": "sit sat sat",
+              "sound": "https://www.diki.pl/images-common/en/mp3/sit_sat_sat.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zabijać",
+          "en": [
+            {
+              "text": "slay slew slain",
+              "sound": "https://www.diki.pl/images-common/en/mp3/slay_slew_slain.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "spać",
+          "en": [
+            {
+              "text": "sleep slept slept",
+              "sound": "https://www.diki.pl/images-common/en/mp3/sleep_slept_slept.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "mówić",
+          "en": [
+            {
+              "text": "speak spoke spoken",
+              "sound": "https://www.diki.pl/images-common/en/mp3/speak_spoke_spoken.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "spędzać, wydawać",
+          "en": [
+            {
+              "text": "spend spent spent",
+              "sound": "https://www.diki.pl/images-common/en/mp3/spend_spent_spent.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "stać",
+          "en": [
+            {
+              "text": "stand stood stood",
+              "sound": "https://www.diki.pl/images-common/en/mp3/stand_stood_stood.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kraść",
+          "en": [
+            {
+              "text": "steal stole stolen",
+              "sound": "https://www.diki.pl/images-common/en/mp3/steal_stole_stolen.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pływać",
+          "en": [
+            {
+              "text": "swim swam swum",
+              "sound": "https://www.diki.pl/images-common/en/mp3/swim_swam_swum.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "brać",
+          "en": [
+            {
+              "text": "take took taken",
+              "sound": "https://www.diki.pl/images-common/en/mp3/take_took_taken.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "uczyć",
+          "en": [
+            {
+              "text": "teach taught taught",
+              "sound": "https://www.diki.pl/images-common/en/mp3/teach_taught_taught.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "mówić",
+          "en": [
+            {
+              "text": "tell told told",
+              "sound": "https://www.diki.pl/images-common/en/mp3/tell_told_told.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "myśleć",
+          "en": [
+            {
+              "text": "think thought thought",
+              "sound": "https://www.diki.pl/images-common/en/mp3/think_thought_thought.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "rzucać",
+          "en": [
+            {
+              "text": "throw threw thrown",
+              "sound": "https://www.diki.pl/images-common/en/mp3/throw_threw_thrown.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "budzić",
+          "en": [
+            {
+              "text": "wake woke woken",
+              "sound": "https://www.diki.pl/images-common/en/mp3/wake_woke_woken.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "nosić, ubierać coś",
+          "en": [
+            {
+              "text": "wear wore worn",
+              "sound": "https://www.diki.pl/images-common/en/mp3/wear_wore_worn.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "rozumieć",
+          "en": [
+            {
+              "text": "understand understood understood",
+              "sound": "https://www.diki.pl/images-common/en/mp3/understand_understood_understood.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "wygrywać",
+          "en": [
+            {
+              "text": "win won won",
+              "sound": "https://www.diki.pl/images-common/en/mp3/win_won_won.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pisać",
+          "en": [
+            {
+              "text": "write wrote written",
+              "sound": "https://www.diki.pl/images-common/en/mp3/write_wrote_written.mp3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Poziom rozszerzony",
+      "words": [
+        {
+          "pl": "pojawić się",
+          "en": [
+            {
+              "text": "arise arose arisen",
+              "sound": "https://www.diki.pl/images-common/en/mp3/arise_arose_arisen.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "obudzić",
+          "en": [
+            {
+              "text": "awake awoke awoken",
+              "sound": "https://www.diki.pl/images-common/en/mp3/awake_awoke_awoken.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "być",
+          "en": [
+            {
+              "text": "be was(were) been",
+              "sound": null
+            }
+          ]
+        },
+        {
+          "pl": "znosić, udźwignąć coś",
+          "en": [
+            {
+              "text": "bear bore borne",
+              "sound": "https://www.diki.pl/images-common/en/mp3/bear_bore_borne.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zbić",
+          "en": [
+            {
+              "text": "beat beat beaten",
+              "sound": "https://www.diki.pl/images-common/en/mp3/beat_beat_beaten.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "stawać się",
+          "en": [
+            {
+              "text": "become became become",
+              "sound": "https://www.diki.pl/images-common/en/mp3/become_became_become.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zaczynać",
+          "en": [
+            {
+              "text": "begin began begun",
+              "sound": "https://www.diki.pl/images-common/en/mp3/begin_began_begun.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zginać, nachylać",
+          "en": [
+            {
+              "text": "bend bent bent",
+              "sound": "https://www.diki.pl/images-common/en/mp3/bend_bent_bent.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zakładać się, obstawiać",
+          "en": [
+            {
+              "text": "bet bet bet",
+              "sound": "https://www.diki.pl/images-common/en/mp3/bet_bet_bet.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "wiązać, złączyć",
+          "en": [
+            {
+              "text": "bind bound bound",
+              "sound": "https://www.diki.pl/images-common/en/mp3/bind_bound_bound.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "ugryźć",
+          "en": [
+            {
+              "text": "bite bit bitten",
+              "sound": "https://www.diki.pl/images-common/en/mp3/bite_bit_bitten.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "krwawić",
+          "en": [
+            {
+              "text": "bleed bled bled",
+              "sound": "https://www.diki.pl/images-common/en/mp3/bleed_bled_bled.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "wiać, dmuchać",
+          "en": [
+            {
+              "text": "blow blew blown",
+              "sound": "https://www.diki.pl/images-common/en/mp3/blow_blew_blown.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "łamać",
+          "en": [
+            {
+              "text": "break broke broken",
+              "sound": "https://www.diki.pl/images-common/en/mp3/break_broke_broken.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "hodować, wychować",
+          "en": [
+            {
+              "text": "breed bred bred",
+              "sound": "https://www.diki.pl/images-common/en/mp3/breed_bred_bred.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "przynosić",
+          "en": [
+            {
+              "text": "bring brought brought",
+              "sound": "https://www.diki.pl/images-common/en/mp3/bring_brought_brought.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "budować",
+          "en": [
+            {
+              "text": "build built built",
+              "sound": "https://www.diki.pl/images-common/en/mp3/build_built_built.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "palić, parzyć",
+          "en": [
+            {
+              "text": "burn burnt burnt",
+              "sound": "https://www.diki.pl/images-common/en/mp3/burn_burnt_burnt.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kupować",
+          "en": [
+            {
+              "text": "buy bought bought",
+              "sound": "https://www.diki.pl/images-common/en/mp3/buy_bought_bought.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "rzucić, zrzucić",
+          "en": [
+            {
+              "text": "cast cast cast",
+              "sound": "https://www.diki.pl/images-common/en/mp3/cast_cast_cast.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "łapać",
+          "en": [
+            {
+              "text": "catch caught caught",
+              "sound": "https://www.diki.pl/images-common/en/mp3/catch_caught_caught.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "wybierać",
+          "en": [
+            {
+              "text": "choose chose chosen",
+              "sound": "https://www.diki.pl/images-common/en/mp3/choose_chose_chosen.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "przywrzeć, uczepić się",
+          "en": [
+            {
+              "text": "cling clung clung",
+              "sound": "https://www.diki.pl/images-common/en/mp3/cling_clung_clung.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "przyjść, przyjechać",
+          "en": [
+            {
+              "text": "come came come",
+              "sound": "https://www.diki.pl/images-common/en/mp3/come_came_come.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kosztować",
+          "en": [
+            {
+              "text": "cost cost cost",
+              "sound": "https://www.diki.pl/images-common/en/mp3/cost_cost_cost.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "skradać się, zakradać",
+          "en": [
+            {
+              "text": "creep crept crept",
+              "sound": "https://www.diki.pl/images-common/en/mp3/creep_crept_crept.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "ciąć, kroić",
+          "en": [
+            {
+              "text": "cut cut cut",
+              "sound": "https://www.diki.pl/images-common/en/mp3/cut_cut_cut.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "rozdawać, mieć do czynienia",
+          "en": [
+            {
+              "text": "deal dealt dealt",
+              "sound": "https://www.diki.pl/images-common/en/mp3/deal_dealt_dealt.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kopać",
+          "en": [
+            {
+              "text": "dig dug dug",
+              "sound": "https://www.diki.pl/images-common/en/mp3/dig_dug_dug.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "robić",
+          "en": [
+            {
+              "text": "do did done",
+              "sound": "https://www.diki.pl/images-common/en/mp3/do_did_done.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "rysować, pociągnąć",
+          "en": [
+            {
+              "text": "draw drew drawn",
+              "sound": "https://www.diki.pl/images-common/en/mp3/draw_drew_drawn.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "śnić, marzyć",
+          "en": [
+            {
+              "text": "dream dreamt dreamt",
+              "sound": "https://www.diki.pl/images-common/en/mp3/dream_dreamt_dreamt.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pić",
+          "en": [
+            {
+              "text": "drink drank drunk",
+              "sound": "https://www.diki.pl/images-common/en/mp3/drink_drank_drunk.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "prowadzić, kierować się czymś",
+          "en": [
+            {
+              "text": "drive drove driven",
+              "sound": "https://www.diki.pl/images-common/en/mp3/drive_drove_driven.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "jeść",
+          "en": [
+            {
+              "text": "eat ate eaten",
+              "sound": "https://www.diki.pl/images-common/en/mp3/eat_ate_eaten.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "padać, upadać, spadać",
+          "en": [
+            {
+              "text": "fall fell fallen",
+              "sound": "https://www.diki.pl/images-common/en/mp3/fall_fell_fallen.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "karmić, żywić",
+          "en": [
+            {
+              "text": "feed fed fed",
+              "sound": "https://www.diki.pl/images-common/en/mp3/feed_fed_fed.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "czuć",
+          "en": [
+            {
+              "text": "feel felt felt",
+              "sound": "https://www.diki.pl/images-common/en/mp3/feel_felt_felt.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "walczyć, bić się",
+          "en": [
+            {
+              "text": "fight fought fought",
+              "sound": "https://www.diki.pl/images-common/en/mp3/fight_fought_fought.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "znaleźć",
+          "en": [
+            {
+              "text": "find found found",
+              "sound": "https://www.diki.pl/images-common/en/mp3/find_found_found.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pasować",
+          "en": [
+            {
+              "text": "fit fit fit",
+              "sound": "https://www.diki.pl/images-common/en/mp3/fit_fit_fit.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "umykać, uciekać",
+          "en": [
+            {
+              "text": "flee fled fled",
+              "sound": "https://www.diki.pl/images-common/en/mp3/flee_fled_fled.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "rzucić, cisnąć",
+          "en": [
+            {
+              "text": "fling flung flung",
+              "sound": "https://www.diki.pl/images-common/en/mp3/fling_flung_flung.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "latać",
+          "en": [
+            {
+              "text": "fly flew flown",
+              "sound": "https://www.diki.pl/images-common/en/mp3/fly_flew_flown.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zabraniać",
+          "en": [
+            {
+              "text": "forbid forbade forbidden",
+              "sound": "https://www.diki.pl/images-common/en/mp3/forbid_forbade_forbidden.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zapominać",
+          "en": [
+            {
+              "text": "forget forgot forgotten",
+              "sound": "https://www.diki.pl/images-common/en/mp3/forget_forgot_forgotten.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "wybaczać",
+          "en": [
+            {
+              "text": "forgive forgave forgiven",
+              "sound": "https://www.diki.pl/images-common/en/mp3/forgive_forgave_forgiven.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "porzucać, zaniechać",
+          "en": [
+            {
+              "text": "forsake forsook forsaken",
+              "sound": "https://www.diki.pl/images-common/en/mp3/forsake_forsook_forsaken.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "przepowiadać, przewidywać",
+          "en": [
+            {
+              "text": "foretell foretold foretold",
+              "sound": "https://www.diki.pl/images-common/en/mp3/foretell_foretold_foretold.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zamarzać",
+          "en": [
+            {
+              "text": "freeze froze frozen",
+              "sound": "https://www.diki.pl/images-common/en/mp3/freeze_froze_frozen.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "dostawać",
+          "en": [
+            {
+              "text": "get got got",
+              "sound": "https://www.diki.pl/images-common/en/mp3/get_got_got.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "dawać",
+          "en": [
+            {
+              "text": "give gave given",
+              "sound": "https://www.diki.pl/images-common/en/mp3/give_gave_given.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "iść",
+          "en": [
+            {
+              "text": "go went gone",
+              "sound": "https://www.diki.pl/images-common/en/mp3/go_went_gone.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zemleć, rozkruszyć, zgrzytać",
+          "en": [
+            {
+              "text": "grind ground ground",
+              "sound": "https://www.diki.pl/images-common/en/mp3/grind_ground_ground.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "rosnąć",
+          "en": [
+            {
+              "text": "grow grew grown",
+              "sound": "https://www.diki.pl/images-common/en/mp3/grow_grew_grown.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zawieszać coś",
+          "en": [
+            {
+              "text": "hang hung hung",
+              "sound": "https://www.diki.pl/images-common/en/mp3/hang_hung_hung.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "mieć",
+          "en": [
+            {
+              "text": "have had had",
+              "sound": "https://www.diki.pl/images-common/en/mp3/have_had_had.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "słyszeć",
+          "en": [
+            {
+              "text": "hear heard heard",
+              "sound": "https://www.diki.pl/images-common/en/mp3/hear_heard_heard.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "chować, ukrywać",
+          "en": [
+            {
+              "text": "hide hid hidden",
+              "sound": "https://www.diki.pl/images-common/en/mp3/hide_hid_hidden.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "uderzać",
+          "en": [
+            {
+              "text": "hit hit hit",
+              "sound": "https://www.diki.pl/images-common/en/mp3/hit_hit_hit.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "trzymać, utrzymywać",
+          "en": [
+            {
+              "text": "hold held held",
+              "sound": "https://www.diki.pl/images-common/en/mp3/hold_held_held.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "ranić, boleć",
+          "en": [
+            {
+              "text": "hurt hurt hurt",
+              "sound": "https://www.diki.pl/images-common/en/mp3/hurt_hurt_hurt.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "trzymać",
+          "en": [
+            {
+              "text": "keep kept kept",
+              "sound": "https://www.diki.pl/images-common/en/mp3/keep_kept_kept.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "klękać, klęczeć",
+          "en": [
+            {
+              "text": "kneel knelt knelt",
+              "sound": "https://www.diki.pl/images-common/en/mp3/kneel_knelt_knelt.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "robić na drutach",
+          "en": [
+            {
+              "text": "knit knit knit",
+              "sound": "https://www.diki.pl/images-common/en/mp3/knit_knit_knit.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "znać, wiedzieć",
+          "en": [
+            {
+              "text": "know knew known",
+              "sound": "https://www.diki.pl/images-common/en/mp3/know_knew_known.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "położyć, kłaść",
+          "en": [
+            {
+              "text": "lay laid laid",
+              "sound": "https://www.diki.pl/images-common/en/mp3/lay_laid_laid.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "prowadzić",
+          "en": [
+            {
+              "text": "lead led led",
+              "sound": "https://www.diki.pl/images-common/en/mp3/lead_led_led.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "skoczyć, skakać",
+          "en": [
+            {
+              "text": "leap leapt leapt",
+              "sound": "https://www.diki.pl/images-common/en/mp3/leap_leapt_leapt.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "uczyć się",
+          "en": [
+            {
+              "text": "learn learnt learnt",
+              "sound": "https://www.diki.pl/images-common/en/mp3/learn_learnt_learnt.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "opuszczać, wyjeżdżać",
+          "en": [
+            {
+              "text": "leave left left",
+              "sound": "https://www.diki.pl/images-common/en/mp3/leave_left_left.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pożyczać",
+          "en": [
+            {
+              "text": "lend lent lent",
+              "sound": "https://www.diki.pl/images-common/en/mp3/lend_lent_lent.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pozwalać",
+          "en": [
+            {
+              "text": "let let let",
+              "sound": "https://www.diki.pl/images-common/en/mp3/let_let_let.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "leżeć, kłaść się",
+          "en": [
+            {
+              "text": "lie lay lain",
+              "sound": "https://www.diki.pl/images-common/en/mp3/lie_lay_lain.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zapalać, rozpalać, oświetlać",
+          "en": [
+            {
+              "text": "light lit lit",
+              "sound": "https://www.diki.pl/images-common/en/mp3/light_lit_lit.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "tracić",
+          "en": [
+            {
+              "text": "lose lost lost",
+              "sound": "https://www.diki.pl/images-common/en/mp3/lose_lost_lost.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "robić",
+          "en": [
+            {
+              "text": "make made made",
+              "sound": "https://www.diki.pl/images-common/en/mp3/make_made_made.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "znaczyć, oznaczać",
+          "en": [
+            {
+              "text": "mean meant meant",
+              "sound": "https://www.diki.pl/images-common/en/mp3/mean_meant_meant.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "spotykać",
+          "en": [
+            {
+              "text": "meet met met",
+              "sound": "https://www.diki.pl/images-common/en/mp3/meet_met_met.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "płacić",
+          "en": [
+            {
+              "text": "pay paid paid",
+              "sound": "https://www.diki.pl/images-common/en/mp3/pay_paid_paid.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "udowadniać, dowieść",
+          "en": [
+            {
+              "text": "prove proved proven",
+              "sound": "https://www.diki.pl/images-common/en/mp3/prove_proved_proven.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kłaść",
+          "en": [
+            {
+              "text": "put put put",
+              "sound": "https://www.diki.pl/images-common/en/mp3/put_put_put.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "rzucać, opuszczać",
+          "en": [
+            {
+              "text": "quit quit quit",
+              "sound": "https://www.diki.pl/images-common/en/mp3/quit_quit_quit.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "czytać",
+          "en": [
+            {
+              "text": "read read read",
+              "sound": "https://www.diki.pl/images-common/en/mp3/read_read_read.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "jeździć",
+          "en": [
+            {
+              "text": "ride rode ridden",
+              "sound": "https://www.diki.pl/images-common/en/mp3/ride_rode_ridden.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "dzwonić",
+          "en": [
+            {
+              "text": "ring rang rung",
+              "sound": "https://www.diki.pl/images-common/en/mp3/ring_rang_rung.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "podnosić się, wzrastać",
+          "en": [
+            {
+              "text": "rise rose risen",
+              "sound": "https://www.diki.pl/images-common/en/mp3/rise_rose_risen.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "biec",
+          "en": [
+            {
+              "text": "run ran run",
+              "sound": "https://www.diki.pl/images-common/en/mp3/run_ran_run.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "piłować",
+          "en": [
+            {
+              "text": "saw sawed sawn",
+              "sound": "https://www.diki.pl/images-common/en/mp3/saw_sawed_sawn.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "mówić",
+          "en": [
+            {
+              "text": "say said said",
+              "sound": "https://www.diki.pl/images-common/en/mp3/say_said_said.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "widzieć",
+          "en": [
+            {
+              "text": "see saw seen",
+              "sound": "https://www.diki.pl/images-common/en/mp3/see_saw_seen.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "szukać, poszukiwać",
+          "en": [
+            {
+              "text": "seek sought sought",
+              "sound": "https://www.diki.pl/images-common/en/mp3/seek_sought_sought.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "sprzedawać",
+          "en": [
+            {
+              "text": "sell sold sold",
+              "sound": "https://www.diki.pl/images-common/en/mp3/sell_sold_sold.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "wysyłać, słać",
+          "en": [
+            {
+              "text": "send sent sent",
+              "sound": "https://www.diki.pl/images-common/en/mp3/send_sent_sent.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "umieszczać, ustawiać",
+          "en": [
+            {
+              "text": "set set set",
+              "sound": "https://www.diki.pl/images-common/en/mp3/set_set_set.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "trząść, potrząsać",
+          "en": [
+            {
+              "text": "shake shook shaken",
+              "sound": "https://www.diki.pl/images-common/en/mp3/shake_shook_shaken.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zrzucać, pozbywać się",
+          "en": [
+            {
+              "text": "shed shed shed",
+              "sound": "https://www.diki.pl/images-common/en/mp3/shed_shed_shed.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "świecić, błyszczeć",
+          "en": [
+            {
+              "text": "shine shone shone",
+              "sound": "https://www.diki.pl/images-common/en/mp3/shine_shone_shone.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "strzelać",
+          "en": [
+            {
+              "text": "shoot shot shot",
+              "sound": "https://www.diki.pl/images-common/en/mp3/shoot_shot_shot.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pokazywać",
+          "en": [
+            {
+              "text": "show showed shown",
+              "sound": "https://www.diki.pl/images-common/en/mp3/show_showed_shown.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kurczyć się, zbiegać",
+          "en": [
+            {
+              "text": "shrink shrank shrunk",
+              "sound": "https://www.diki.pl/images-common/en/mp3/shrink_shrank_shrunk.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zamykać",
+          "en": [
+            {
+              "text": "shut shut shut",
+              "sound": "https://www.diki.pl/images-common/en/mp3/shut_shut_shut.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "śpiewać",
+          "en": [
+            {
+              "text": "sing sang sung",
+              "sound": "https://www.diki.pl/images-common/en/mp3/sing_sang_sung.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "tonąć, zapadać się",
+          "en": [
+            {
+              "text": "sink sank sunk",
+              "sound": "https://www.diki.pl/images-common/en/mp3/sink_sank_sunk.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "siedzieć, siadać",
+          "en": [
+            {
+              "text": "sit sat sat",
+              "sound": "https://www.diki.pl/images-common/en/mp3/sit_sat_sat.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zabijać",
+          "en": [
+            {
+              "text": "slay slew slain",
+              "sound": "https://www.diki.pl/images-common/en/mp3/slay_slew_slain.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "spać",
+          "en": [
+            {
+              "text": "sleep slept slept",
+              "sound": "https://www.diki.pl/images-common/en/mp3/sleep_slept_slept.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "ślizgać się, zjeżdżać",
+          "en": [
+            {
+              "text": "slide slid slid",
+              "sound": "https://www.diki.pl/images-common/en/mp3/slide_slid_slid.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "cisnąć, miotać",
+          "en": [
+            {
+              "text": "sling slung slung",
+              "sound": "https://www.diki.pl/images-common/en/mp3/sling_slung_slung.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "mówić",
+          "en": [
+            {
+              "text": "speak spoke spoken",
+              "sound": "https://www.diki.pl/images-common/en/mp3/speak_spoke_spoken.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "spędzać, wydawać",
+          "en": [
+            {
+              "text": "spend spent spent",
+              "sound": "https://www.diki.pl/images-common/en/mp3/spend_spent_spent.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kręcić, zakręcić czymś",
+          "en": [
+            {
+              "text": "spin spun spun",
+              "sound": "https://www.diki.pl/images-common/en/mp3/spin_spun_spun.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "dzielić, rodzielać",
+          "en": [
+            {
+              "text": "split split split",
+              "sound": "https://www.diki.pl/images-common/en/mp3/split_split_split.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "rozkładać, rozpościerać",
+          "en": [
+            {
+              "text": "spread spread spread",
+              "sound": "https://www.diki.pl/images-common/en/mp3/spread_spread_spread.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "przeskakiwać, wyskakiwać",
+          "en": [
+            {
+              "text": "spring sprang sprung",
+              "sound": "https://www.diki.pl/images-common/en/mp3/spring_sprang_sprung.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "stać",
+          "en": [
+            {
+              "text": "stand stood stood",
+              "sound": "https://www.diki.pl/images-common/en/mp3/stand_stood_stood.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kraść",
+          "en": [
+            {
+              "text": "steal stole stolen",
+              "sound": "https://www.diki.pl/images-common/en/mp3/steal_stole_stolen.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "wbijać, wtykać, przyklejać",
+          "en": [
+            {
+              "text": "stick stuck stuck",
+              "sound": "https://www.diki.pl/images-common/en/mp3/stick_stuck_stuck.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "żądlić",
+          "en": [
+            {
+              "text": "sting stung stung",
+              "sound": "https://www.diki.pl/images-common/en/mp3/sting_stung_stung.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "śmierdzieć, cuchnąć",
+          "en": [
+            {
+              "text": "stink stank stunk",
+              "sound": "https://www.diki.pl/images-common/en/mp3/stink_stank_stunk.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "uderzyć",
+          "en": [
+            {
+              "text": "strike struck struck",
+              "sound": "https://www.diki.pl/images-common/en/mp3/strike_struck_struck.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zmagać się z czymś",
+          "en": [
+            {
+              "text": "strive strove striven",
+              "sound": "https://www.diki.pl/images-common/en/mp3/strive_strove_striven.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "przysięgać, przeklinać",
+          "en": [
+            {
+              "text": "swear swore sworn",
+              "sound": "https://www.diki.pl/images-common/en/mp3/swear_swore_sworn.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zmiatać, zamiatać",
+          "en": [
+            {
+              "text": "sweep swept swept",
+              "sound": "https://www.diki.pl/images-common/en/mp3/sweep_swept_swept.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pływać",
+          "en": [
+            {
+              "text": "swim swam swum",
+              "sound": "https://www.diki.pl/images-common/en/mp3/swim_swam_swum.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "machnąć, zakołysać",
+          "en": [
+            {
+              "text": "swing swung swung",
+              "sound": "https://www.diki.pl/images-common/en/mp3/swing_swung_swung.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "brać",
+          "en": [
+            {
+              "text": "take took taken",
+              "sound": "https://www.diki.pl/images-common/en/mp3/take_took_taken.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "uczyć",
+          "en": [
+            {
+              "text": "teach taught taught",
+              "sound": "https://www.diki.pl/images-common/en/mp3/teach_taught_taught.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "drzeć, rozdzierać",
+          "en": [
+            {
+              "text": "tear tore torn",
+              "sound": "https://www.diki.pl/images-common/en/mp3/tear_tore_torn.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "mówić",
+          "en": [
+            {
+              "text": "tell told told",
+              "sound": "https://www.diki.pl/images-common/en/mp3/tell_told_told.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "myśleć",
+          "en": [
+            {
+              "text": "think thought thought",
+              "sound": "https://www.diki.pl/images-common/en/mp3/think_thought_thought.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "rzucać",
+          "en": [
+            {
+              "text": "throw threw thrown",
+              "sound": "https://www.diki.pl/images-common/en/mp3/throw_threw_thrown.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kroczyć, stąpać",
+          "en": [
+            {
+              "text": "tread trod trodden",
+              "sound": "https://www.diki.pl/images-common/en/mp3/tread_trod_trodden.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "budzić",
+          "en": [
+            {
+              "text": "wake woke woken",
+              "sound": "https://www.diki.pl/images-common/en/mp3/wake_woke_woken.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "nosić, ubierać coś",
+          "en": [
+            {
+              "text": "wear wore worn",
+              "sound": "https://www.diki.pl/images-common/en/mp3/wear_wore_worn.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "płakać, szlochać",
+          "en": [
+            {
+              "text": "weep wept wept",
+              "sound": "https://www.diki.pl/images-common/en/mp3/weep_wept_wept.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "rozumieć",
+          "en": [
+            {
+              "text": "understand understood understood",
+              "sound": "https://www.diki.pl/images-common/en/mp3/understand_understood_understood.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "wygrywać",
+          "en": [
+            {
+              "text": "win won won",
+              "sound": "https://www.diki.pl/images-common/en/mp3/win_won_won.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "nawijać, nakręcać, wić się",
+          "en": [
+            {
+              "text": "wind wound wound",
+              "sound": "https://www.diki.pl/images-common/en/mp3/wind_wound_wound.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "wykręcić, wyżąć coś, wycisnąć",
+          "en": [
+            {
+              "text": "wring wrung wrung",
+              "sound": "https://www.diki.pl/images-common/en/mp3/wring_wrung_wrung.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pisać",
+          "en": [
+            {
+              "text": "write wrote written",
+              "sound": "https://www.diki.pl/images-common/en/mp3/write_wrote_written.mp3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

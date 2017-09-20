@@ -1,8 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Synergy.Lerman.Controllers;
 using Synergy.Lerman.Tests.Properties;
 using System;
 using System.Linq;
+using System.Threading.Tasks;
+using Newtonsoft.Json;
+using Synergy.Lerman.Realm.Books;
 using Synergy.Lerman.Realm.Books.Reading;
 
 namespace Synergy.Lerman.Tests.Sources
@@ -13,20 +15,26 @@ namespace Synergy.Lerman.Tests.Sources
         // REPLACE PATTERN: ^(Unit\s+.*?)\r\n  =>  [$1]\n
 
         [TestMethod]
-        public void Read()
+        public void TryToFindPronunciations()
         {
-            var file = Resources.longman;
-            var book = TextFileBookReader.Read(file);
+            var path ="../../Sources/";
+            BookStore.Read(path);
 
-            foreach (var word in book.Categories.SelectMany(c => c.Words))
+            //foreach (var word in book.Categories.SelectMany(c => c.Words))
+            //{
+            //    var translations = word.GetEnglishTexts();
+
+            //    foreach (var t in translations)
+            //    {
+            //        Console.WriteLine("{0} => {1}", word.GetPolishPhrase(), t);
+            //    }
+            //}
+
+            Parallel.ForEach(BookStore.GetBooks(), book =>
             {
-                var translations = word.GetEnglishPhrases();
-
-                foreach (var t in translations)
-                {
-                    Console.WriteLine("{0} => {1}", word.GetPolishPhrase(), t);
-                }
-            }
+                book.TryToFindPronunciations();
+                book.Save();
+            });
         }
     }
 }

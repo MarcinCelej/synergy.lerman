@@ -6,9 +6,9 @@ using Synergy.Lerman.Realm.Infrastructure;
 
 namespace Synergy.Lerman.Realm.Books
 {
-    public class BookStore
+    public static class BookStore
     {
-        public static Dictionary<string, Book> books = new Dictionary<string, Book>();
+        private static readonly Dictionary<string, Book> bookStore = new Dictionary<string, Book>();
 
         public static void Read(string path)
         {
@@ -16,16 +16,14 @@ namespace Synergy.Lerman.Realm.Books
 
             foreach(var filePath in files)
             {
-                var fileContent = File.ReadAllText(filePath);
-                var book = TextFileBookReader.Read(fileContent);
-                book.WasReadFromFile(filePath);
-                books.Add(book.Name, book);
+                var book = BookReader.Read(filePath);
+                bookStore.Add(book.Name, book);
             }
         }
 
         public static List<Book> GetBooks()
         {
-            return books.Values.ToList();
+            return bookStore.Values.ToList();
         }
 
         public static Book RandomBook()
@@ -37,12 +35,12 @@ namespace Synergy.Lerman.Realm.Books
 
         public static Book GetBook(string book)
         {
-            return books[book];
+            return bookStore[book];
         }
 
         public static List<Category> GetCategories()
         {
-            return books.Values.SelectMany(book => book.Categories).ToList();
+            return bookStore.Values.SelectMany(book => book.Categories).ToList();
         }
     }
 }

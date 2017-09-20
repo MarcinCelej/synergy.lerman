@@ -1,24 +1,29 @@
 using System.Collections.Generic;
 using System.Linq;
+using JetBrains.Annotations;
+using Newtonsoft.Json;
 using Synergy.Contracts;
 
 namespace Synergy.Lerman.Realm.Books
 {
     public class Category
     {
-        public Book Book { get; }
+        [JsonIgnore]
+        public Book Book { get; private set; }
+
+        [JsonIgnore]
         public string BookName => this.Book.Name;
-        public string Name { get; }
 
-        public List<Word> Words { get; }
-        public int WordsCount => this.Words.Count;
+        [JsonProperty(PropertyName = "name")]
+        public string Name { get; private set; }
 
-        public string GetDisplayWordsCount()
+        [JsonProperty(PropertyName = "words")]
+        public List<Word> Words { get; private set; }
+
+        private int WordsCount => this.Words.Count;
+
+        public Category()
         {
-            if (this.WordsCount > 100)
-                return "100+";
-
-            return this.WordsCount.ToString();
         }
 
         public Category(Book book, string name)
@@ -26,6 +31,14 @@ namespace Synergy.Lerman.Realm.Books
             this.Book = book;
             this.Name = name;
             this.Words = new List<Word>();
+        }
+
+        public string GetDisplayWordsCount()
+        {
+            if (this.WordsCount > 100)
+                return "100+";
+
+            return this.WordsCount.ToString();
         }
 
         public Word GetWord(string polish)
@@ -51,6 +64,16 @@ namespace Synergy.Lerman.Realm.Books
                 index = 0;
 
             return this.Words[index];
+        }
+
+        public void BelongsTo([NotNull] Book book)
+        {
+            this.Book = book;
+        }
+
+        public void TryToFindPronunciations()
+        {
+            this.Words.ForEach(phrase => phrase.TryToFindPronunciations());
         }
     }
 }

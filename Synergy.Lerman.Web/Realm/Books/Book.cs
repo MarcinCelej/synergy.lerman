@@ -3,32 +3,46 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using JetBrains.Annotations;
+using Newtonsoft.Json;
+using Synergy.Contracts;
+using Synergy.Lerman.Realm.Books.Reading;
 using Synergy.Lerman.Realm.Infrastructure;
 
 namespace Synergy.Lerman.Realm.Books
 {
     public class Book
     {
-        public String Name { get; }
-        public String Code => this.Name.Replace(" ", "");
-        public string FilePath { get; set; }
+        [JsonProperty(PropertyName = "id")]
+        public String Id { get; private set; }
+
+        [JsonProperty(PropertyName = "name")]
+        public String Name { get; private set; }
+
+        [JsonProperty(PropertyName = "categories")]
+        public List<Category> Categories { get; private set; }
+
+        private IBookReader reader;
+
+        public Book()
+        {
+        }
 
         public Book(string name)
         {
+            this.Id = name;
             this.Name = name;
             this.Categories = new List<Category>();
         }
-
-        public List<Category> Categories { get; }
 
         public string GetDisplayCategoriesCount()
         {
             return this.Categories.Count.ToString();
         }
 
-        internal void WasReadFromFile(string filePath)
+        internal void WasReadBy(IBookReader reader)
         {
-            this.FilePath = filePath;
+            this.reader = reader;
         }
 
         public Category GetCategory(string category)
@@ -42,25 +56,21 @@ namespace Synergy.Lerman.Realm.Books
             return Categories[bookIndex];
         }
 
-        internal void Save()
+        public void Save()
         {
-            StringBuilder content = new StringBuilder();
-            content.AppendLine($"[{this.Name}]");
+            this.reader.Save(this);
+        }
 
-            foreach (var category in this.Categories)
-            {
-                content.AppendLine();
-                content.AppendLine($"[{category.Name}]");
+        public void Rename([NotNull] string name)
+        {
+            Fail.IfArgumentWhiteSpace(name, nameof(name));
 
-                foreach (var word in category.Words)
-                {
-                    var en = String.Join("|", word.GetEnglishPhrases());
-                    var pl = word.GetPolishPhrase();
-                    content.AppendLine($"{en} = {pl}");
-                }
-            }
+            this.Name = name;
+        }
 
-            File.WriteAllText(this.FilePath, content.ToString(), Encoding.UTF8);
+        public void TryToFindPronunciations()
+        {
+            this.Categories.ForEach(phrase => phrase.TryToFindPronunciations());
         }
     }
 }

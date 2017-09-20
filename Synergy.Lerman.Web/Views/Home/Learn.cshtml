@@ -15,9 +15,15 @@
         </a>
         <div class="collapse" id="collapseExample">
             <p class="card-text">
-                @foreach (var en in Model.Word.GetEnglishPhrases())
+                @foreach (var phrase in Model.Word.GetEnglishPhrases())
                 {
-                    <div class="alert alert-warning" role="alert"><h3>@en</h3></div>
+                    <div class="alert alert-warning" role="alert"><h3>@phrase.Text
+                    @if (phrase.PronunciationUrl != null)
+                    {
+                        <span class="btn btn-default glyphicon glyphicon-volume-up" onclick="new Audio('@phrase.PronunciationUrl').play()"></span>
+                    }
+                    </h3>
+                    </div>
                 }
             </p>
             <a class="btn btn-danger btn-lg" type="button" href="@Url.Action(nameof(HomeController.Learn), "Home", LearnInputModel.Wrong(this.Model))"><span class="glyphicon glyphicon-minus" aria-hidden="true" /></a>
