@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Text;
 using JetBrains.Annotations;
 using Newtonsoft.Json;
 using Synergy.Contracts;
@@ -40,7 +38,7 @@ namespace Synergy.Lerman.Realm.Books
             return this.Categories.Count.ToString();
         }
 
-        internal void WasReadBy(IBookReader reader)
+        internal void WasReadBy([NotNull] IBookReader reader)
         {
             this.reader = reader;
         }

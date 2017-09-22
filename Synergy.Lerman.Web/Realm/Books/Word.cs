@@ -58,8 +58,8 @@ namespace Synergy.Lerman.Realm.Books
         public void Edit(string polish, List<string> phrases)
         {
             this.Polish = polish;
-            // TODO: Uzupe³nij frazy o linki do wymowy
-            this.Phrases = phrases.ConvertAll(p=>new Phrase(p));
+            this.Phrases = phrases.ConvertAll(p => new Phrase(p));
+            this.TryToFindPronunciations();
         }
 
         public string GetPolishPhrase()
@@ -104,6 +104,13 @@ namespace Synergy.Lerman.Realm.Books
             public Phrase(string text)
             {
                 Text = text;
+            }
+
+            [JsonConstructor]
+            public Phrase(string text, string sound)
+            {
+                Text = text;
+                PronunciationUrl = sound;
             }
 
             public void TryToFindPronunciation()

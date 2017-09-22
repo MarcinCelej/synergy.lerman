@@ -17,7 +17,6 @@ namespace Synergy.Lerman.Realm.Lessons
         private List<Word> toLearn;
         private List<Word> learned;
         private List<LearningWord> learning;
-        private Word lastWord;
 
         public DateTime StartedOn { get; }
         public DateTime? FinishedOn { get; private set; }
@@ -68,20 +67,19 @@ namespace Synergy.Lerman.Realm.Lessons
             }
         }
 
-        public Word NextWord()
+        public Word NextWord(Word lastWord = null)
         {
             if (this.toLearn.Count == 0)
                 return null;
 
             var unknownWords = this.toLearn.ToList();
-            if (this.toLearn.Count > 1)
+            if (this.toLearn.Count > 1 && lastWord != null)
             {
-                unknownWords.Remove(this.lastWord);
+                unknownWords.Remove(lastWord);
             }
 
             int randomIndex = CryptoRandom.NextIndex(unknownWords.Count);
-            this.lastWord = unknownWords[randomIndex];
-            return this.lastWord;
+            return unknownWords[randomIndex];
         }
 
         public string GetProgress()

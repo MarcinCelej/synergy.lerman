@@ -52,7 +52,7 @@ namespace Synergy.Lerman.Models
                 Lesson = model.LessonId,
                 Book = model.Word.Category.BookName,
                 Category = model.Word.Category.Name,
-                Word = model.Lesson.NextWord().Polish,
+                Word = model.Lesson.NextWord(model.Word).Polish,
                 PreviousWord = model.Word.Polish,
                 Result = (int)Action.Wrong,
             };
@@ -65,7 +65,7 @@ namespace Synergy.Lerman.Models
                 Lesson = model.LessonId,
                 Book = model.Word.Category.BookName,
                 Category = model.Word.Category.Name,
-                Word = model.Lesson.NextWord().Polish,
+                Word = model.Lesson.NextWord(model.Word).Polish,
                 PreviousWord = model.Word.Polish,
                 Result = (int)Action.Right,
             };
