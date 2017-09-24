@@ -115,7 +115,7 @@ namespace Synergy.Lerman.Realm.Books
 
             public void TryToFindPronunciation()
             {
-                var url = "https://www.diki.pl/images-common/en/mp3/"+ this.Text.Replace(" ", "_") + ".mp3";
+                var url = "https://www.diki.pl/images-common/en/mp3/"+ this.Text.Replace(" ", "_").ToLower() + ".mp3";
                 if (this.RemoteFileExists(url))
                     this.PronunciationUrl = url;
             }

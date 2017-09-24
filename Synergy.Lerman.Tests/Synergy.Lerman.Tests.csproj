@@ -106,6 +106,7 @@
     <Content Include="Sources\longman.txt" />
     <Content Include="Sources\longman2.txt" />
     <Content Include="Sources\longman3.txt" />
+    <Content Include="Sources\PrimeTime1.txt" />
     <Content Include="Sources\top1000.txt" />
   </ItemGroup>
   <ItemGroup>

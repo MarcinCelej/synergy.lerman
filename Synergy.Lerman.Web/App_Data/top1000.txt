@@ -6,7 +6,7 @@
       "name": "1-100",
       "words": [
         {
-          "pl": "nazwa, nazwisko 1",
+          "pl": "nazwa, nazwisko",
           "en": [
             {
               "text": "name",
@@ -24,7 +24,7 @@
           ]
         },
         {
-          "pl": "do, ku, na, po, za, dla, przy, aby, żeby",
+          "pl": "do, żeby",
           "en": [
             {
               "text": "to",
@@ -38,6 +38,18 @@
             {
               "text": "through",
               "sound": "https://www.diki.pl/images-common/en/mp3/through.mp3"
+            },
+            {
+              "text": "across",
+              "sound": "https://www.diki.pl/images-common/en/mp3/across.mp3"
+            },
+            {
+              "text": "by",
+              "sound": "https://www.diki.pl/images-common/en/mp3/by.mp3"
+            },
+            {
+              "text": "for",
+              "sound": "https://www.diki.pl/images-common/en/mp3/for.mp3"
             }
           ]
         },
@@ -96,7 +108,7 @@
           ]
         },
         {
-          "pl": "jest w 3 osobie liczby pojedynczej",
+          "pl": "\"jest\" w 3 osobie liczby pojedynczej",
           "en": [
             {
               "text": "is",
@@ -110,6 +122,10 @@
             {
               "text": "it",
               "sound": "https://www.diki.pl/images-common/en/mp3/it.mp3"
+            },
+            {
+              "text": "this",
+              "sound": "https://www.diki.pl/images-common/en/mp3/this.mp3"
             }
           ]
         },
@@ -159,7 +175,7 @@
           ]
         },
         {
-          "pl": "pomoc, pomagać, pomóc",
+          "pl": "pomoc, pomagać",
           "en": [
             {
               "text": "help",
@@ -297,8 +313,8 @@
           "pl": "ja",
           "en": [
             {
-              "text": "i",
-              "sound": "https://www.diki.pl/images-common/en/mp3/i.mp3"
+              "text": "I",
+              "sound": null
             }
           ]
         },
@@ -393,7 +409,7 @@
           ]
         },
         {
-          "pl": "także , za",
+          "pl": "także , zbyt",
           "en": [
             {
               "text": "too",
@@ -414,8 +430,8 @@
           "pl": "ten sam, taki sam",
           "en": [
             {
-              "text": "same",
-              "sound": "https://www.diki.pl/images-common/en/mp3/same.mp3"
+              "text": "the same",
+              "sound": "https://www.diki.pl/images-common/en/mp3/the_same.mp3"
             }
           ]
         },
@@ -560,6 +576,10 @@
             {
               "text": "also",
               "sound": "https://www.diki.pl/images-common/en/mp3/also.mp3"
+            },
+            {
+              "text": "too",
+              "sound": "https://www.diki.pl/images-common/en/mp3/too.mp3"
             }
           ]
         },
@@ -591,7 +611,7 @@
           ]
         },
         {
-          "pl": "małe",
+          "pl": "mały",
           "en": [
             {
               "text": "small",
@@ -618,7 +638,7 @@
           ]
         },
         {
-          "pl": "umieć, potrafić",
+          "pl": "móc, umieć, potrafić",
           "en": [
             {
               "text": "can",
@@ -641,6 +661,10 @@
             {
               "text": "out",
               "sound": "https://www.diki.pl/images-common/en/mp3/out.mp3"
+            },
+            {
+              "text": "otside",
+              "sound": null
             }
           ]
         },
@@ -650,6 +674,10 @@
             {
               "text": "home",
               "sound": "https://www.diki.pl/images-common/en/mp3/home.mp3"
+            },
+            {
+              "text": "house",
+              "sound": "https://www.diki.pl/images-common/en/mp3/house.mp3"
             }
           ]
         },
@@ -830,6 +858,10 @@
             {
               "text": "must",
               "sound": "https://www.diki.pl/images-common/en/mp3/must.mp3"
+            },
+            {
+              "text": "have to",
+              "sound": "https://www.diki.pl/images-common/en/mp3/have_to.mp3"
             }
           ]
         },
@@ -857,6 +889,10 @@
             {
               "text": "each",
               "sound": "https://www.diki.pl/images-common/en/mp3/each.mp3"
+            },
+            {
+              "text": "every",
+              "sound": "https://www.diki.pl/images-common/en/mp3/every.mp3"
             }
           ]
         },
@@ -893,6 +929,10 @@
             {
               "text": "which",
               "sound": "https://www.diki.pl/images-common/en/mp3/which.mp3"
+            },
+            {
+              "text": "who",
+              "sound": "https://www.diki.pl/images-common/en/mp3/who.mp3"
             }
           ]
         },
@@ -1100,7 +1140,7 @@
           ]
         },
         {
-          "pl": "dom",
+          "pl": "dom, budynek",
           "en": [
             {
               "text": "house",
@@ -1109,7 +1149,7 @@
           ]
         },
         {
-          "pl": "np, zrobiłby, dałabym itp. he would do, i would give",
+          "pl": "mógłby, potrafiłby",
           "en": [
             {
               "text": "could",
@@ -1222,11 +1262,15 @@
             {
               "text": "make",
               "sound": "https://www.diki.pl/images-common/en/mp3/make.mp3"
+            },
+            {
+              "text": "do",
+              "sound": "https://www.diki.pl/images-common/en/mp3/do.mp3"
             }
           ]
         },
         {
-          "pl": "mama",
+          "pl": "matka",
           "en": [
             {
               "text": "mother",
@@ -1247,8 +1291,8 @@
           "pl": "świat",
           "en": [
             {
-              "text": "world",
-              "sound": "https://www.diki.pl/images-common/en/mp3/world.mp3"
+              "text": "the world",
+              "sound": "https://www.diki.pl/images-common/en/mp3/the_world.mp3"
             }
           ]
         },
@@ -1319,8 +1363,8 @@
           "pl": "ziemia",
           "en": [
             {
-              "text": "earth",
-              "sound": "https://www.diki.pl/images-common/en/mp3/earth.mp3"
+              "text": "the Earth",
+              "sound": null
             }
           ]
         },
@@ -1379,7 +1423,7 @@
           ]
         },
         {
-          "pl": "móc",
+          "pl": "mógł, umiał, potrafił",
           "en": [
             {
               "text": "could",
@@ -1415,7 +1459,7 @@
           ]
         },
         {
-          "pl": "przychodzić przyjeżdżać",
+          "pl": "przychodzić, przyjeżdżać",
           "en": [
             {
               "text": "come",
@@ -1424,7 +1468,7 @@
           ]
         },
         {
-          "pl": "powinien …",
+          "pl": "powinien",
           "en": [
             {
               "text": "should",
@@ -1433,7 +1477,7 @@
           ]
         },
         {
-          "pl": "robił lub operator w past simple",
+          "pl": "robił lub operator w Past Simple",
           "en": [
             {
               "text": "did",
@@ -1631,7 +1675,7 @@
           ]
         },
         {
-          "pl": "dzwonić, nazywać , rozmowa tel",
+          "pl": "dzwonić, nazywać , rozmowa telefoniczna",
           "en": [
             {
               "text": "call",
@@ -1643,8 +1687,8 @@
           "pl": "słońce",
           "en": [
             {
-              "text": "sun",
-              "sound": "https://www.diki.pl/images-common/en/mp3/sun.mp3"
+              "text": "the Sun",
+              "sound": null
             }
           ]
         },

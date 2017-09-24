@@ -13,28 +13,27 @@ namespace Synergy.Lerman.Tests.Sources
     public class TReader
     {
         // REPLACE PATTERN: ^(Unit\s+.*?)\r\n  =>  [$1]\n
+        [TestMethod]
+        public void read()
+        {
+            var path = "../../Sources/";
+            BookStore.Read(path);
+        }
+
 
         [TestMethod]
         public void TryToFindPronunciations()
         {
             var path ="../../Sources/";
             BookStore.Read(path);
+            var book = BookStore.GetBook("PrimeTime Preintermediate");
 
-            //foreach (var word in book.Categories.SelectMany(c => c.Words))
-            //{
-            //    var translations = word.GetEnglishTexts();
-
-            //    foreach (var t in translations)
-            //    {
-            //        Console.WriteLine("{0} => {1}", word.GetPolishPhrase(), t);
-            //    }
-            //}
-
-            Parallel.ForEach(BookStore.GetBooks(), book =>
+            Parallel.ForEach(book.Categories, category =>
             {
-                book.TryToFindPronunciations();
-                book.Save();
+                category.TryToFindPronunciations();
             });
+
+            book.Save();
         }
     }
 }

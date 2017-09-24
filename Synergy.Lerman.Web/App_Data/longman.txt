@@ -1,6 +1,6 @@
 ﻿{
-  "id": "Longman - podstawy",
-  "name": "Longman - podstawy",
+  "id": "Longman - podstawowy",
+  "name": "Longman - podstawowy",
   "categories": [
     {
       "name": "Unit 1 CZŁOWIEK",
