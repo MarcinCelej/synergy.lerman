@@ -6,7 +6,7 @@
 <div>
     <div class="panel panel-default text-center">
         <div class="panel-heading">
-            <p>TODO: book name</p>
+            <p>@Model.BookName</p>
             @using (@Html.BeginForm("CategoryCreate", "Edit", FormMethod.Post, new {@class = "form-horizontal"}))
             {
                 @Html.HiddenFor(category => category.BookId)

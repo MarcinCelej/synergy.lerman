@@ -181,6 +181,9 @@ namespace Synergy.Lerman.Controllers
     {
         [UsedImplicitly]
         public Guid BookId { get; set; }
+        
+        [NotNull]
+        public string BookName { get; }
 
         [CanBeNull]
         [Required]
@@ -194,11 +197,15 @@ namespace Synergy.Lerman.Controllers
         public NewCategoryModel(Book book)
         {
             this.BookId = book.Id;
+            this.BookName = book.Name;
         }
     }
 
     public class EditCategoryModel
     {
+        [NotNull]
+        public string BookName { get; }
+
         public Guid Id { get; set; }
 
         [CanBeNull]
@@ -217,6 +224,7 @@ namespace Synergy.Lerman.Controllers
             this.Id = category.Id;
             this.Name = category.Name;
             this.Words = category.Words;
+            this.BookName = category.BookName;
         }
     }
 
