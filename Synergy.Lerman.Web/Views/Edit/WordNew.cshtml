@@ -1,0 +1,111 @@
+﻿@model NewWordModel
+@{
+    //ViewBag.Title = string.Format("New word '{0}' from '{1}'", Model.Category, Model.Book);
+}
+
+@using (@Html.BeginForm("WordCreate", "Edit"))
+{
+    @Html.HiddenFor(m => m.CategoryId)
+
+    <div class="panel panel-default text-center">
+        <div class="panel-heading">
+            @*<h6><a type="button" role="button" class="btn btn-primary btn-sm" href="@Url.Action(nameof(HomeController.Book), "Home", new { name = @Model.Book.Name })">&laquo @Model.Book.Name</a></h6>*@
+            @*<h5>@Model.Category</h5>*@
+
+
+            @Html.TextBoxFor(m => m.Polish, new { @class = "form-control" })
+            @*<a class="btn btn-default btn-lg" type="button" href="@Url.Action(nameof(HomeController.Edit), "Home", EditModel.GoToPreviousWord(this.Model))"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true" /></a>
+            <a class="btn btn-default btn-lg" type="button" href="@Url.Action(nameof(HomeController.Edit), "Home", EditModel.GoToNextWord(this.Model))"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true" /></a>*@
+        </div>
+        <div class="panel-body">
+            @*<a class="btn btn-info btn-lg" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    ???
+                </a>
+                <div class="collapse" id="collapseExample">*@
+            <p class="card-text">
+                @*@foreach (var en in Model.Word.GetEnglishPhrases())
+                    {
+                        <div class="alert alert-warning" role="alert"><h3>@en</h3></div>
+                    }*@
+                <div class="form-group">
+                    @Html.TextBoxFor(m => m.English1, new { @class = "form-control" })
+                </div><div class="form-group">
+                    @Html.TextBoxFor(m => m.English2, new { @class = "form-control" })
+                </div><div class="form-group">
+                    @Html.TextBoxFor(m => m.English3, new { @class = "form-control" })
+                </div><div class="form-group">
+                    @Html.TextBoxFor(m => m.English4, new { @class = "form-control" })
+                </div><div class="form-group">
+                    @Html.TextBoxFor(m => m.English5, new { @class = "form-control" })
+                </div><div class="form-group">
+                    @Html.TextBoxFor(m => m.English6, new { @class = "form-control" })
+                </div>
+            </p>
+            @*<a class="btn btn-danger btn-lg" type="button" href="@Url.Action(nameof(HomeController.Learn), "Home", LearnInput.Wrong(this.Model))"><span class="glyphicon glyphicon-minus" aria-hidden="true" /></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="btn btn-success btn-lg" type="button" href="@Url.Action(nameof(HomeController.Learn), "Home", LearnInput.Right(this.Model))"><span class="glyphicon glyphicon-ok" aria-hidden="true" /></a>*@
+            @*</div>*@
+        </div>
+        <div class="panel-footer">
+            <div class="row">
+                <button type="submit" class="btn btn-success btn-lg">Create</button>
+                @*<div class="col-xs-6 text-left">
+                        <div class="badge">@Model.SpeedDisplay</div>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <span class="badge">@Model.ProgresDisplay</span>
+                    </div>*@
+            </div>
+        </div>
+    </div>
+}
+
+
+
+@*<div class="jumbotron">
+
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card-body text-center">
+                        <h2 class="card-title">@Html.DisplayName(Model.GetPolishPhrase()) <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        ?
+    </a></h2>
+                        <div class="collapse" id="collapseExample">
+                            <p class="card-text">
+                                <ul class="list-group list-group-flush">
+                                    @foreach (var en in Model.GetEnglishPhrases())
+                                    {
+                                        <li class="list-group-item">@en</li>
+                                    }
+                                </ul>
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>*@
+
+
+
+@*<div class="row">
+        <div class="col-md-4">
+            <h2>Learn</h2>
+            <p>
+                blah blah
+            </p>
+            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Examine yourself</h2>
+            <p>even more blah blah</p>
+            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Web Hosting</h2>
+            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        </div>
+
+
+    </div>*@

@@ -11,11 +11,13 @@
         <div class="panel-body">
             @foreach (var book in this.Model)
             {
-                <a type="button" role="button" class="btn btn-primary btn-lg" style="margin-bottom:10px"
-                   href="@Url.Action(nameof(HomeController.Book), "Home", new { name = book.Name })">
-                    @book.Name <span class="badge">@book.GetDisplayCategoriesCount()</span>
-                    &raquo;
-                </a>
+                <div>
+                    <a type="button" role="button" class="btn btn-primary btn-lg" style="margin-bottom:10px"
+                       href="@Url.Action(nameof(HomeController.Book), "Home", new { name = book.Name })">
+                        @book.Name <span class="badge">@book.GetDisplayCategoriesCount()</span>
+                        &raquo;
+                    </a>
+                </div>
             }
         </div>
     </div>

@@ -1,8 +1,9 @@
 ﻿{
-  "id": "Longman - podstawowy",
+  "id": "b1222628-4810-430a-af79-9eb5961a191b",
   "name": "Longman - podstawowy",
   "categories": [
     {
+      "id": "b7b864c2-33ca-4c0d-8b85-82565fd66fe0",
       "name": "Unit 1 CZŁOWIEK",
       "words": [
         {
@@ -3679,6 +3680,7 @@
       ]
     },
     {
+      "id": "923cd665-3236-411b-b190-75af8f8af1d4",
       "name": "Unit 2 DOM",
       "words": [
         {
@@ -6410,6 +6412,7 @@
       ]
     },
     {
+      "id": "b5fc8d40-b371-41d8-872c-110089e37835",
       "name": "Unit 3 Szkoła",
       "words": [
         {
@@ -8540,6 +8543,7 @@
       ]
     },
     {
+      "id": "e8ace589-deac-43e4-bca6-d641668971ce",
       "name": "Unit 4 Praca",
       "words": [
         {
@@ -10298,11 +10302,11 @@
           ]
         },
         {
-          "pl": "na dyżurze",
+          "pl": "być na dyżurze",
           "en": [
             {
-              "text": "be on duty być",
-              "sound": null
+              "text": "be on duty",
+              "sound": "https://www.diki.pl/images-common/en/mp3/be_on_duty.mp3"
             }
           ]
         },
@@ -10452,7 +10456,7 @@
           "pl": "zarabiać na życie",
           "en": [
             {
-              "text": "do sth for a living a living",
+              "text": "do sth for a living",
               "sound": null
             },
             {
@@ -11085,6 +11089,7 @@
       ]
     },
     {
+      "id": "7be6fc98-1770-4836-9951-737757552ac1",
       "name": "Unit 5 Życie towarzyskie i rodzinne",
       "words": [
         {
@@ -13359,6 +13364,7 @@
       ]
     },
     {
+      "id": "b4674c3e-d94f-4d47-a72b-43bdcc514807",
       "name": "Unit 6 Żywienie",
       "words": [
         {
@@ -16384,6 +16390,7 @@
       ]
     },
     {
+      "id": "ef2f4b53-e9f5-44ef-b8f3-07531d2605b9",
       "name": "Unit 7 Zakupy i usługi",
       "words": [
         {
@@ -18619,6 +18626,7 @@
       ]
     },
     {
+      "id": "19a44374-01d9-4b24-a803-b59774b268a3",
       "name": "Unit 8 Podróżowanie i turystyka",
       "words": [
         {
@@ -21372,6 +21380,7 @@
       ]
     },
     {
+      "id": "c07b2dc4-9bce-4ed2-9dd4-af47c1bcd862",
       "name": "Unit 9 Kultura",
       "words": [
         {
@@ -23963,6 +23972,7 @@
       ]
     },
     {
+      "id": "6cc34289-4beb-4376-abd3-445efcea952f",
       "name": "Unit 10 Sport",
       "words": [
         {
@@ -26570,6 +26580,7 @@
       ]
     },
     {
+      "id": "ff240788-8ad3-484d-9b3e-d27fe0830f00",
       "name": "Unit 11 Zdrowie",
       "words": [
         {
@@ -28938,6 +28949,7 @@
       ]
     },
     {
+      "id": "857de285-492b-44e5-ba4a-666751d7ac44",
       "name": "Unit 12 Nauka i technika",
       "words": [
         {
@@ -31617,6 +31629,7 @@
       ]
     },
     {
+      "id": "e055a893-080d-4655-9531-302ca6e5f422",
       "name": "Unit 13 Świat przyrody",
       "words": [
         {
@@ -34960,6 +34973,7 @@
       ]
     },
     {
+      "id": "658e1676-94e9-4e0b-88f0-4f8024323608",
       "name": "Unit 14 Państwo i społeczeństwo",
       "words": [
         {
@@ -38102,6 +38116,21 @@
             {
               "text": "Your Honour",
               "sound": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6888aec0-d077-4d7b-ad97-7c15c7c55b72",
+      "name": "Mock Matura Exam 1",
+      "words": [
+        {
+          "pl": "rezerwat",
+          "en": [
+            {
+              "text": "reserve",
+              "sound": "https://www.diki.pl/images-common/en/mp3/reserve.mp3"
             }
           ]
         }

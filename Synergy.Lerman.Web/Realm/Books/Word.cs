@@ -20,6 +20,12 @@ namespace Synergy.Lerman.Realm.Books
             this.Category = category;
         }
 
+        public Word(Category category, string polish, List<string> phrases)
+        {
+            this.Category = category;
+            this.Edit(polish, phrases);
+        }
+
         [JsonIgnore]
         public Category Category { get; private set; }
 
@@ -98,7 +104,7 @@ namespace Synergy.Lerman.Realm.Books
             public string Text { get; private set; }
 
             [CanBeNull]
-            [JsonProperty(PropertyName = "sound")]
+            [JsonProperty(PropertyName = "sound", DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate)]
             public string PronunciationUrl { get; private set; }
 
             public Phrase(string text)

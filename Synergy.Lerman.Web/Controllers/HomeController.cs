@@ -17,6 +17,13 @@ namespace Synergy.Lerman.Controllers
             return View(books);
         }
 
+        [HttpGet]
+        public ActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
         public ActionResult Login(string user)
         {
             FormsAuthentication.SetAuthCookie(user, true);

@@ -93,7 +93,18 @@ namespace Synergy.Lerman.Models
         public Word Word { get; }
 
         public string ProgresDisplay => this.Lesson.GetProgress();
-        public string SpeedDisplay => $"{this.Lesson.GetSpeed()} / min";
+        public string SpeedDisplay
+        {
+            get
+            {
+                var speed = this.Lesson.GetSpeed();
+                if (speed == 1)
+                    return $"{speed} word / min";
+
+                return $"{speed} words / min";
+            }
+        }
+
         public int WordsCount => this.Lesson.WordCount;
         public int ElapsedMinutes => this.Lesson.ElapsedMinutes;
         public int PercentageSuccess => 6;

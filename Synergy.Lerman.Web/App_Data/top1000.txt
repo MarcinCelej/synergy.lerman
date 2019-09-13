@@ -1,8 +1,9 @@
 ﻿{
-  "id": "Top 1000 słów",
+  "id": "842f9186-f826-489c-93d3-cd8c59c50240",
   "name": "Top 1000 słów",
   "categories": [
     {
+      "id": "9f20f687-573d-4496-a736-2b2435f0fa3a",
       "name": "1-100",
       "words": [
         {
@@ -463,7 +464,7 @@
           ]
         },
         {
-          "pl": "robić w 3. osobie liczby pojedynczej",
+          "pl": "robić w 3. osobie l. poj.",
           "en": [
             {
               "text": "does",
@@ -948,6 +949,7 @@
       ]
     },
     {
+      "id": "fec9b782-e71c-4fe7-9b06-6c4f75cb1d57",
       "name": "101-200",
       "words": [
         {
@@ -1857,6 +1859,7 @@
       ]
     },
     {
+      "id": "d01efc99-9002-41ab-9bca-58ff5f0de605",
       "name": "201-300",
       "words": [
         {
@@ -1968,7 +1971,7 @@
           ]
         },
         {
-          "pl": "robić w czasie przeszłym i zrobione",
+          "pl": "robić w czasie przeszłym, zrobione",
           "en": [
             {
               "text": "made",
@@ -1982,6 +1985,14 @@
             {
               "text": "might",
               "sound": "https://www.diki.pl/images-common/en/mp3/might.mp3"
+            },
+            {
+              "text": "may",
+              "sound": "https://www.diki.pl/images-common/en/mp3/may.mp3"
+            },
+            {
+              "text": "can",
+              "sound": "https://www.diki.pl/images-common/en/mp3/can.mp3"
             }
           ]
         },
@@ -2058,7 +2069,7 @@
           ]
         },
         {
-          "pl": "mało. mały",
+          "pl": "mało, mały",
           "en": [
             {
               "text": "little",
@@ -2112,7 +2123,7 @@
           ]
         },
         {
-          "pl": "człowiek , mężczyzna",
+          "pl": "człowiek, mężczyzna",
           "en": [
             {
               "text": "man",
@@ -2148,7 +2159,7 @@
           ]
         },
         {
-          "pl": "przyjechał, przyszła…",
+          "pl": "przyjechał, przyszła",
           "en": [
             {
               "text": "came",
@@ -2376,8 +2387,8 @@
           "pl": "w kierunku, do ,ku",
           "en": [
             {
-              "text": "toward",
-              "sound": "https://www.diki.pl/images-common/en/mp3/toward.mp3"
+              "text": "towards",
+              "sound": "https://www.diki.pl/images-common/en/mp3/towards.mp3"
             }
           ]
         },
@@ -2436,7 +2447,7 @@
           ]
         },
         {
-          "pl": "chodzić , spacerować",
+          "pl": "chodzić, spacerować",
           "en": [
             {
               "text": "walk",
@@ -2679,7 +2690,7 @@
           ]
         },
         {
-          "pl": "ciagnąć, nalewać",
+          "pl": "ciagnąć",
           "en": [
             {
               "text": "pull",
@@ -2762,6 +2773,7 @@
       ]
     },
     {
+      "id": "f0199caa-a47a-4835-8e1c-fc9eec6a3258",
       "name": "301-400",
       "words": [
         {
@@ -2833,6 +2845,10 @@
             {
               "text": "certain",
               "sound": "https://www.diki.pl/images-common/en/mp3/certain.mp3"
+            },
+            {
+              "text": "sure",
+              "sound": "https://www.diki.pl/images-common/en/mp3/sure.mp3"
             }
           ]
         },
@@ -3098,7 +3114,7 @@
           ]
         },
         {
-          "pl": "odpoczynek, odpoczywać",
+          "pl": "odpoczynek, odpoczywać, reszta",
           "en": [
             {
               "text": "rest",
@@ -3130,6 +3146,10 @@
             {
               "text": "color",
               "sound": "https://www.diki.pl/images-common/en/mp3/color.mp3"
+            },
+            {
+              "text": "colour",
+              "sound": "https://www.diki.pl/images-common/en/mp3/colour.mp3"
             }
           ]
         },
@@ -3137,8 +3157,8 @@
           "pl": "być w stanie coś zrobić",
           "en": [
             {
-              "text": "able",
-              "sound": "https://www.diki.pl/images-common/en/mp3/able.mp3"
+              "text": "be able to",
+              "sound": "https://www.diki.pl/images-common/en/mp3/be_able_to.mp3"
             }
           ]
         },
@@ -3170,7 +3190,7 @@
           ]
         },
         {
-          "pl": "zrobione i do w czasie perfest",
+          "pl": "zrobione i \"do\" w czasie perfect",
           "en": [
             {
               "text": "done",
@@ -3314,7 +3334,7 @@
           ]
         },
         {
-          "pl": "ostatni, końcowy , finał",
+          "pl": "ostatni, końcowy, finał",
           "en": [
             {
               "text": "final",
@@ -3382,6 +3402,10 @@
             {
               "text": "though",
               "sound": "https://www.diki.pl/images-common/en/mp3/though.mp3"
+            },
+            {
+              "text": "although",
+              "sound": "https://www.diki.pl/images-common/en/mp3/although.mp3"
             }
           ]
         },
@@ -3391,6 +3415,10 @@
             {
               "text": "quick",
               "sound": "https://www.diki.pl/images-common/en/mp3/quick.mp3"
+            },
+            {
+              "text": "fast",
+              "sound": "https://www.diki.pl/images-common/en/mp3/fast.mp3"
             }
           ]
         },
@@ -3566,7 +3594,7 @@
           ]
         },
         {
-          "pl": "wyraźny, przejrzysty, czyścic",
+          "pl": "wyraźny, przejrzysty, czyścić",
           "en": [
             {
               "text": "clear",
@@ -3667,6 +3695,7 @@
       ]
     },
     {
+      "id": "d74f87dc-8c56-4eeb-b5e5-8e27b84a7d10",
       "name": "401-500",
       "words": [
         {
@@ -3760,7 +3789,7 @@
           ]
         },
         {
-          "pl": "stać się , zdarzyć",
+          "pl": "stać się, zdarzyć",
           "en": [
             {
               "text": "happen",
@@ -3976,7 +4005,7 @@
           ]
         },
         {
-          "pl": "widzieć, znać w czasie przeszłym",
+          "pl": "wiedzieć, znać w czasie przeszłym",
           "en": [
             {
               "text": "knew",
@@ -4114,8 +4143,8 @@
           "pl": "zamiast kogoś",
           "en": [
             {
-              "text": "stead",
-              "sound": "https://www.diki.pl/images-common/en/mp3/stead.mp3"
+              "text": "instead of",
+              "sound": null
             }
           ]
         },
@@ -4179,6 +4208,10 @@
             {
               "text": "true",
               "sound": "https://www.diki.pl/images-common/en/mp3/true.mp3"
+            },
+            {
+              "text": "real",
+              "sound": "https://www.diki.pl/images-common/en/mp3/real.mp3"
             }
           ]
         },
@@ -4201,7 +4234,7 @@
           ]
         },
         {
-          "pl": "temu np. 2 dni temu",
+          "pl": "\"temu\", np. 2 dni temu",
           "en": [
             {
               "text": "ago",
@@ -4572,6 +4605,7 @@
       ]
     },
     {
+      "id": "41c143a7-2ed2-46b6-b135-e5eb6954740e",
       "name": "501-600",
       "words": [
         {
@@ -4584,7 +4618,7 @@
           ]
         },
         {
-          "pl": "wiek",
+          "pl": "wiek, 100 lat",
           "en": [
             {
               "text": "century",
@@ -4755,7 +4789,7 @@
           ]
         },
         {
-          "pl": "pozycja, położenie, stanowiski",
+          "pl": "pozycja, położenie, stanowisko",
           "en": [
             {
               "text": "position",
@@ -4800,7 +4834,7 @@
           ]
         },
         {
-          "pl": "toczyć , rolka, bułka",
+          "pl": "toczyć, rolka, bułka",
           "en": [
             {
               "text": "roll",
@@ -4989,7 +5023,7 @@
           ]
         },
         {
-          "pl": "koło. okrąg, krążyć",
+          "pl": "koło, okrąg, krążyć",
           "en": [
             {
               "text": "circle",
@@ -5313,7 +5347,7 @@
           ]
         },
         {
-          "pl": "polować",
+          "pl": "polować, polowanie",
           "en": [
             {
               "text": "hunt",
@@ -5477,6 +5511,7 @@
       ]
     },
     {
+      "id": "efd7ec5e-87c5-4952-9c89-d6ba5046dd11",
       "name": "601-700",
       "words": [
         {
@@ -5903,7 +5938,7 @@
           ]
         },
         {
-          "pl": "handel , wymieniać, handlować",
+          "pl": "handel, wymieniać, handlować",
           "en": [
             {
               "text": "trade",
@@ -6299,7 +6334,7 @@
           ]
         },
         {
-          "pl": "podwórko, ogródek ,jard",
+          "pl": "podwórko, ogródek, jard",
           "en": [
             {
               "text": "yard",
@@ -6382,6 +6417,7 @@
       ]
     },
     {
+      "id": "b5f816e8-eff1-4bc8-8a00-e71599e681d9",
       "name": "701-800",
       "words": [
         {
@@ -6619,7 +6655,7 @@
           ]
         },
         {
-          "pl": "zwrot grzecznościowy :shall i open, czy mam otworzyć",
+          "pl": "zwrot grzecznościowy :shall I open, czy mam otworzyć",
           "en": [
             {
               "text": "shall",
@@ -6831,6 +6867,10 @@
             {
               "text": "truck",
               "sound": "https://www.diki.pl/images-common/en/mp3/truck.mp3"
+            },
+            {
+              "text": "lorry",
+              "sound": "https://www.diki.pl/images-common/en/mp3/lorry.mp3"
             }
           ]
         },
@@ -7287,6 +7327,7 @@
       ]
     },
     {
+      "id": "c02fb39b-b51d-4761-9087-f331ab802fff",
       "name": "801-900",
       "words": [
         {
@@ -7443,7 +7484,7 @@
           ]
         },
         {
-          "pl": "srebro , srebrny",
+          "pl": "srebro, srebrny",
           "en": [
             {
               "text": "silver",
@@ -7488,7 +7529,7 @@
           ]
         },
         {
-          "pl": "dostarczać , zaopatrywać",
+          "pl": "dostarczać, zaopatrywać",
           "en": [
             {
               "text": "provide",
@@ -7704,7 +7745,7 @@
           ]
         },
         {
-          "pl": "operować, działać , obsługiwać",
+          "pl": "operować, działać, obsługiwać",
           "en": [
             {
               "text": "operate",
@@ -7731,7 +7772,7 @@
           ]
         },
         {
-          "pl": "wynik ,zaliczać",
+          "pl": "wynik, zaliczać",
           "en": [
             {
               "text": "score",
@@ -7817,6 +7858,10 @@
             {
               "text": "neighbor",
               "sound": "https://www.diki.pl/images-common/en/mp3/neighbor.mp3"
+            },
+            {
+              "text": "neighbour",
+              "sound": "https://www.diki.pl/images-common/en/mp3/neighbour.mp3"
             }
           ]
         },
@@ -7992,11 +8037,11 @@
           ]
         },
         {
-          "pl": "zależeć od",
+          "pl": "zależeć od, polegać na",
           "en": [
             {
-              "text": "depend",
-              "sound": "https://www.diki.pl/images-common/en/mp3/depend.mp3"
+              "text": "depend on",
+              "sound": "https://www.diki.pl/images-common/en/mp3/depend_on.mp3"
             }
           ]
         },
@@ -8192,6 +8237,7 @@
       ]
     },
     {
+      "id": "dcf055db-b503-4236-a965-2a0d90609da7",
       "name": "901-1000",
       "words": [
         {
@@ -8564,7 +8610,7 @@
           ]
         },
         {
-          "pl": "bar, krata ,tabliczka",
+          "pl": "bar, krata, tabliczka",
           "en": [
             {
               "text": "bar",
@@ -8573,7 +8619,7 @@
           ]
         },
         {
-          "pl": "podwozić ,winda, podnosić",
+          "pl": "podwozić, winda, podnosić",
           "en": [
             {
               "text": "lift",
@@ -8744,7 +8790,7 @@
           ]
         },
         {
-          "pl": "drogi, jeleń",
+          "pl": "drogi, zwrot grzecznościowy",
           "en": [
             {
               "text": "dear",
@@ -8816,7 +8862,7 @@
           ]
         },
         {
-          "pl": "zdarzać się ,wydarzać",
+          "pl": "zdarzać się, wydarzać",
           "en": [
             {
               "text": "occur",
@@ -8987,7 +9033,7 @@
           ]
         },
         {
-          "pl": "wełna, bawełna",
+          "pl": "bawełna",
           "en": [
             {
               "text": "cotton",
@@ -9008,8 +9054,8 @@
           "pl": "rodzić się",
           "en": [
             {
-              "text": "born",
-              "sound": "https://www.diki.pl/images-common/en/mp3/born.mp3"
+              "text": "be born",
+              "sound": "https://www.diki.pl/images-common/en/mp3/be_born.mp3"
             }
           ]
         },

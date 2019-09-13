@@ -11,8 +11,9 @@ namespace Synergy.Lerman.Realm.Books
 {
     public class Book
     {
+        // TODO: Zamiast GUID'a lepiej dodać swoją klasę BookId
         [JsonProperty(PropertyName = "id")]
-        public String Id { get; private set; }
+        public Guid Id { get; private set; }
 
         [JsonProperty(PropertyName = "name")]
         public String Name { get; private set; }
@@ -24,11 +25,11 @@ namespace Synergy.Lerman.Realm.Books
 
         public Book()
         {
+            this.Id = Guid.NewGuid();
         }
 
-        public Book(string name)
+        public Book(string name):this()
         {
-            this.Id = name;
             this.Name = name;
             this.Categories = new List<Category>();
         }
@@ -41,6 +42,11 @@ namespace Synergy.Lerman.Realm.Books
         internal void WasReadBy([NotNull] IBookReader reader)
         {
             this.reader = reader;
+        }
+
+        public List<Category> GetCategoriesToLearn()
+        {
+            return this.Categories.Where(c => c.Words.Count > 0).ToList();
         }
 
         public Category GetCategory(string category)
@@ -57,6 +63,8 @@ namespace Synergy.Lerman.Realm.Books
         public void Save()
         {
             this.reader.Save(this);
+
+            BookStore.BookWasChanged(this);
         }
 
         public void Rename([NotNull] string name)
@@ -69,6 +77,13 @@ namespace Synergy.Lerman.Realm.Books
         public void TryToFindPronunciations()
         {
             this.Categories.ForEach(phrase => phrase.TryToFindPronunciations());
+        }
+
+        public Category CreateCategory(string categoryName)
+        {
+            var category = new Category(this, categoryName);
+            this.Categories.Add(category);
+            return category;
         }
     }
 }

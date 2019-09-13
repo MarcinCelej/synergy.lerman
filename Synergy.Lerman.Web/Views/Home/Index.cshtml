@@ -17,11 +17,13 @@
 
         @foreach (var book in this.Model)
         {
-            <a type="button" role="button" class="btn btn-primary btn-lg" style="margin-bottom:10px"
-               href="@Url.Action(nameof(HomeController.Book), "Home", new { name = book.Name })">
-                @book.Name <span class="badge">@book.GetDisplayCategoriesCount()</span>
-                &raquo;
-            </a>
+            <div>
+                <a type="button" role="button" class="btn btn-primary btn-lg" style="margin-bottom:10px"
+                   href="@Url.Action(nameof(HomeController.Book), "Home", new { name = book.Name })">
+                    @book.Name <span class="badge">@book.GetDisplayCategoriesCount()</span>
+                    &raquo;
+                </a>
+            </div>
         }
         
         @*<span class="btn btn-default btn-lg glyphicon glyphicon-volume-up" onclick="new Audio('https://www.diki.pl/images-common/en/mp3/one.mp3').play()"></span>*@

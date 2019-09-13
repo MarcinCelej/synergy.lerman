@@ -1,5 +1,5 @@
 ﻿{
-  "id": "PrimeTime Preintermediate",
+  "id": "{1AA4A771-382C-43B5-BE65-F2A53E5AD447}",
   "name": "PrimeTime Preintermediate",
   "categories": [
     {
@@ -672,7 +672,7 @@
           ]
         },
         {
-          "pl": "pływać water",
+          "pl": "pływać ",
           "en": [
             {
               "text": "swim",
@@ -2133,7 +2133,7 @@
           "pl": "turniej",
           "en": [
             {
-              "text": "tournament it",
+              "text": "tournament ",
               "sound": null
             }
           ]
@@ -9224,7 +9224,7 @@
           ]
         },
         {
-          "pl": "powód ce",
+          "pl": "powód ",
           "en": [
             {
               "text": "cause",
@@ -9236,8 +9236,8 @@
           "pl": "celebryta",
           "en": [
             {
-              "text": "ebrity",
-              "sound": null
+              "text": "celebrity",
+              "sound": "https://www.diki.pl/images-common/en/mp3/celebrity.mp3"
             }
           ]
         },
@@ -12832,8 +12832,8 @@
           "pl": "wdzięczny",
           "en": [
             {
-              "text": "gratefu",
-              "sound": null
+              "text": "grateful",
+              "sound": "https://www.diki.pl/images-common/en/mp3/grateful.mp3"
             }
           ]
         },

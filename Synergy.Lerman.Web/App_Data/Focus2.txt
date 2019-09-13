@@ -1,5 +1,5 @@
 ﻿{
-  "id": "Focus",
+  "id": "{F217A24C-A128-48DC-8262-1FFE749EE3BA}",
   "name": "Focus",
   "categories": [
     {

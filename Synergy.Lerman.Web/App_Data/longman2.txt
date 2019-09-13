@@ -1,5 +1,5 @@
 ﻿{
-  "id": "Longman - rozszerzony",
+  "id": "{2A02BC05-E92A-43F2-BD52-9A9656BEAD3D}",
   "name": "Longman - rozszerzony",
   "categories": [
     {

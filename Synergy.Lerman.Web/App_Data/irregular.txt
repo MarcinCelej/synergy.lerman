@@ -1,5 +1,5 @@
 ﻿{
-  "id": "Czasowniki nieregularne",
+  "id": "{CE099A91-66EC-468C-ADF9-4779588E9CF0}",
   "name": "Czasowniki nieregularne",
   "categories": [
     {

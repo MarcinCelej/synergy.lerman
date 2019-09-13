@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
@@ -14,6 +15,9 @@ namespace Synergy.Lerman.Realm.Books
         [JsonIgnore]
         public string BookName => this.Book.Name;
 
+        [JsonProperty(PropertyName = "id")]
+        public Guid Id { get; private set; }
+
         [JsonProperty(PropertyName = "name")]
         public string Name { get; private set; }
 
@@ -24,9 +28,10 @@ namespace Synergy.Lerman.Realm.Books
 
         public Category()
         {
+            this.Id = Guid.NewGuid();
         }
 
-        public Category(Book book, string name)
+        public Category(Book book, string name):this()
         {
             this.Book = book;
             this.Name = name;
@@ -74,6 +79,11 @@ namespace Synergy.Lerman.Realm.Books
         public void TryToFindPronunciations()
         {
             this.Words.ForEach(phrase => phrase.TryToFindPronunciations());
+        }
+
+        public void Rename(string name)
+        {
+            this.Name = name;
         }
     }
 }

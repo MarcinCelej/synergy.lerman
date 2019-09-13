@@ -1,0 +1,1333 @@
+﻿{
+  "id": "b4a16c17-f3c4-437d-b6f6-0c2149a4db58",
+  "name": "Adult groups",
+  "categories": [
+    {
+      "id": "7f3e1747-5df4-4b8e-9433-a121a3a51a01",
+      "name": "Group 1",
+      "words": [
+        {
+          "pl": "test",
+          "en": [
+            {
+              "text": "test",
+              "sound": "https://www.diki.pl/images-common/en/mp3/test.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "głodny",
+          "en": [
+            {
+              "text": "hungry",
+              "sound": "https://www.diki.pl/images-common/en/mp3/hungry.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "tablica ogłoszeń",
+          "en": [
+            {
+              "text": "noticeboard",
+              "sound": "https://www.diki.pl/images-common/en/mp3/noticeboard.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "dużo (niepoliczalne)",
+          "en": [
+            {
+              "text": "much",
+              "sound": "https://www.diki.pl/images-common/en/mp3/much.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "dużo (policzalne)",
+          "en": [
+            {
+              "text": "many",
+              "sound": "https://www.diki.pl/images-common/en/mp3/many.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "dużo, mnówstwo",
+          "en": [
+            {
+              "text": "a lot of",
+              "sound": "https://www.diki.pl/images-common/en/mp3/a_lot_of.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "cukier",
+          "en": [
+            {
+              "text": "sugar",
+              "sound": "https://www.diki.pl/images-common/en/mp3/sugar.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "rzutnik",
+          "en": [
+            {
+              "text": "projector",
+              "sound": "https://www.diki.pl/images-common/en/mp3/projector.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kto, który (do ludzi)",
+          "en": [
+            {
+              "text": "who",
+              "sound": "https://www.diki.pl/images-common/en/mp3/who.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "który (do rzeczy)",
+          "en": [
+            {
+              "text": "which",
+              "sound": "https://www.diki.pl/images-common/en/mp3/which.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kiedy",
+          "en": [
+            {
+              "text": "when",
+              "sound": "https://www.diki.pl/images-common/en/mp3/when.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "gdzie",
+          "en": [
+            {
+              "text": "where",
+              "sound": "https://www.diki.pl/images-common/en/mp3/where.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "dlaczego",
+          "en": [
+            {
+              "text": "why",
+              "sound": "https://www.diki.pl/images-common/en/mp3/why.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "jak dużo (niepoliczalne)",
+          "en": [
+            {
+              "text": "how much",
+              "sound": "https://www.diki.pl/images-common/en/mp3/how_much.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "jak dużo (policzalne)",
+          "en": [
+            {
+              "text": "how many",
+              "sound": "https://www.diki.pl/images-common/en/mp3/how_many.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "co, jaki",
+          "en": [
+            {
+              "text": "what",
+              "sound": "https://www.diki.pl/images-common/en/mp3/what.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "chcieć",
+          "en": [
+            {
+              "text": "want (to)",
+              "sound": null
+            }
+          ]
+        },
+        {
+          "pl": "chciałbym",
+          "en": [
+            {
+              "text": "I would like to",
+              "sound": null
+            }
+          ]
+        },
+        {
+          "pl": "czy chciałbyś?",
+          "en": [
+            {
+              "text": "would you like to?",
+              "sound": null
+            }
+          ]
+        },
+        {
+          "pl": "najlepszy",
+          "en": [
+            {
+              "text": "the best",
+              "sound": "https://www.diki.pl/images-common/en/mp3/the_best.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "najgorszy",
+          "en": [
+            {
+              "text": "the worst",
+              "sound": "https://www.diki.pl/images-common/en/mp3/the_worst.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zwiedzać",
+          "en": [
+            {
+              "text": "visit",
+              "sound": "https://www.diki.pl/images-common/en/mp3/visit.mp3"
+            },
+            {
+              "text": "sightsee",
+              "sound": null
+            }
+          ]
+        },
+        {
+          "pl": "imieniny",
+          "en": [
+            {
+              "text": "name's day",
+              "sound": null
+            }
+          ]
+        },
+        {
+          "pl": "jazda na rowerze",
+          "en": [
+            {
+              "text": "cycling",
+              "sound": "https://www.diki.pl/images-common/en/mp3/cycling.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kiełbasa",
+          "en": [
+            {
+              "text": "sausage",
+              "sound": "https://www.diki.pl/images-common/en/mp3/sausage.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "gulasz, potrawka",
+          "en": [
+            {
+              "text": "stew",
+              "sound": "https://www.diki.pl/images-common/en/mp3/stew.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pora roku, sezon",
+          "en": [
+            {
+              "text": "season",
+              "sound": "https://www.diki.pl/images-common/en/mp3/season.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "wiosna",
+          "en": [
+            {
+              "text": "spring",
+              "sound": "https://www.diki.pl/images-common/en/mp3/spring.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "lato",
+          "en": [
+            {
+              "text": "summer",
+              "sound": "https://www.diki.pl/images-common/en/mp3/summer.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "jesień",
+          "en": [
+            {
+              "text": "autumn",
+              "sound": "https://www.diki.pl/images-common/en/mp3/autumn.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zima",
+          "en": [
+            {
+              "text": "winter",
+              "sound": "https://www.diki.pl/images-common/en/mp3/winter.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "jeździć na nartach",
+          "en": [
+            {
+              "text": "ski",
+              "sound": "https://www.diki.pl/images-common/en/mp3/ski.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "słodki",
+          "en": [
+            {
+              "text": "sweet",
+              "sound": "https://www.diki.pl/images-common/en/mp3/sweet.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pasta do zębów",
+          "en": [
+            {
+              "text": "toothpaste",
+              "sound": "https://www.diki.pl/images-common/en/mp3/toothpaste.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "szczoteczka do zębów",
+          "en": [
+            {
+              "text": "toothbrush",
+              "sound": "https://www.diki.pl/images-common/en/mp3/toothbrush.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "ząb",
+          "en": [
+            {
+              "text": "tooth",
+              "sound": "https://www.diki.pl/images-common/en/mp3/tooth.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zęby",
+          "en": [
+            {
+              "text": "teeth",
+              "sound": "https://www.diki.pl/images-common/en/mp3/teeth.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "mężczyzna",
+          "en": [
+            {
+              "text": "man",
+              "sound": "https://www.diki.pl/images-common/en/mp3/man.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "mężczyźni",
+          "en": [
+            {
+              "text": "men",
+              "sound": "https://www.diki.pl/images-common/en/mp3/men.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kanapka",
+          "en": [
+            {
+              "text": "sandwich",
+              "sound": "https://www.diki.pl/images-common/en/mp3/sandwich.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "bielizna",
+          "en": [
+            {
+              "text": "underwear",
+              "sound": "https://www.diki.pl/images-common/en/mp3/underwear.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "bagaż podręczny",
+          "en": [
+            {
+              "text": "hand luggage",
+              "sound": "https://www.diki.pl/images-common/en/mp3/hand_luggage.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kraj, wieś",
+          "en": [
+            {
+              "text": "country",
+              "sound": "https://www.diki.pl/images-common/en/mp3/country.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "sławny z ",
+          "en": [
+            {
+              "text": "famous for",
+              "sound": null
+            }
+          ]
+        },
+        {
+          "pl": "most",
+          "en": [
+            {
+              "text": "bridge",
+              "sound": "https://www.diki.pl/images-common/en/mp3/bridge.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "firma, towarzystwo",
+          "en": [
+            {
+              "text": "company",
+              "sound": "https://www.diki.pl/images-common/en/mp3/company.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "więcej, bardziej",
+          "en": [
+            {
+              "text": "more",
+              "sound": "https://www.diki.pl/images-common/en/mp3/more.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "niż, od",
+          "en": [
+            {
+              "text": "than",
+              "sound": "https://www.diki.pl/images-common/en/mp3/than.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "portmonetka",
+          "en": [
+            {
+              "text": "purse",
+              "sound": "https://www.diki.pl/images-common/en/mp3/purse.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pamiętnik",
+          "en": [
+            {
+              "text": "diary",
+              "sound": "https://www.diki.pl/images-common/en/mp3/diary.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zegarek",
+          "en": [
+            {
+              "text": "watch",
+              "sound": "https://www.diki.pl/images-common/en/mp3/watch.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "sweter",
+          "en": [
+            {
+              "text": "sweater",
+              "sound": "https://www.diki.pl/images-common/en/mp3/sweater.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pytać, prosić",
+          "en": [
+            {
+              "text": "ask",
+              "sound": "https://www.diki.pl/images-common/en/mp3/ask.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "podróżować",
+          "en": [
+            {
+              "text": "travel",
+              "sound": "https://www.diki.pl/images-common/en/mp3/travel.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "podróżnik",
+          "en": [
+            {
+              "text": "traveller",
+              "sound": "https://www.diki.pl/images-common/en/mp3/traveller.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kieszeń",
+          "en": [
+            {
+              "text": "pocket",
+              "sound": "https://www.diki.pl/images-common/en/mp3/pocket.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zamek błyskawiczny",
+          "en": [
+            {
+              "text": "zip",
+              "sound": "https://www.diki.pl/images-common/en/mp3/zip.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zasunąć",
+          "en": [
+            {
+              "text": "zip up",
+              "sound": null
+            }
+          ]
+        },
+        {
+          "pl": "kilka",
+          "en": [
+            {
+              "text": "a couple of",
+              "sound": "https://www.diki.pl/images-common/en/mp3/a_couple_of.mp3"
+            },
+            {
+              "text": "a few",
+              "sound": "https://www.diki.pl/images-common/en/mp3/a_few.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "para, dwoje ludzi",
+          "en": [
+            {
+              "text": "couple",
+              "sound": "https://www.diki.pl/images-common/en/mp3/couple.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "dziwny",
+          "en": [
+            {
+              "text": "strange",
+              "sound": "https://www.diki.pl/images-common/en/mp3/strange.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "obcy, nieznajomy",
+          "en": [
+            {
+              "text": "stranger",
+              "sound": "https://www.diki.pl/images-common/en/mp3/stranger.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "całkowity",
+          "en": [
+            {
+              "text": "total",
+              "sound": "https://www.diki.pl/images-common/en/mp3/total.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "katastrofa",
+          "en": [
+            {
+              "text": "disaster",
+              "sound": "https://www.diki.pl/images-common/en/mp3/disaster.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "miłej podróży, wycieczki",
+          "en": [
+            {
+              "text": "have a good trip",
+              "sound": null
+            }
+          ]
+        },
+        {
+          "pl": "wycieczka",
+          "en": [
+            {
+              "text": "trip",
+              "sound": "https://www.diki.pl/images-common/en/mp3/trip.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pamiątka",
+          "en": [
+            {
+              "text": "souvenir",
+              "sound": "https://www.diki.pl/images-common/en/mp3/souvenir.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "peron",
+          "en": [
+            {
+              "text": "platform",
+              "sound": "https://www.diki.pl/images-common/en/mp3/platform.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "śmieci",
+          "en": [
+            {
+              "text": "rubbish",
+              "sound": "https://www.diki.pl/images-common/en/mp3/rubbish.mp3"
+            },
+            {
+              "text": "litter",
+              "sound": "https://www.diki.pl/images-common/en/mp3/litter.mp3"
+            },
+            {
+              "text": "trash",
+              "sound": "https://www.diki.pl/images-common/en/mp3/trash.mp3"
+            },
+            {
+              "text": "waste",
+              "sound": "https://www.diki.pl/images-common/en/mp3/waste.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "ławka",
+          "en": [
+            {
+              "text": "bench",
+              "sound": "https://www.diki.pl/images-common/en/mp3/bench.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "guma do żucia",
+          "en": [
+            {
+              "text": "chewing gum",
+              "sound": "https://www.diki.pl/images-common/en/mp3/chewing_gum.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "żuć",
+          "en": [
+            {
+              "text": "chew",
+              "sound": "https://www.diki.pl/images-common/en/mp3/chew.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "wołać, nazywać, dzwonić",
+          "en": [
+            {
+              "text": "call",
+              "sound": "https://www.diki.pl/images-common/en/mp3/call.mp3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "743916c1-42df-4bff-9e28-75c4ce34a825",
+      "name": "group 2",
+      "words": [
+        {
+          "pl": "pracoholik",
+          "en": [
+            {
+              "text": "workaholic",
+              "sound": "https://www.diki.pl/images-common/en/mp3/workaholic.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pamięc przenośna",
+          "en": [
+            {
+              "text": "memory stick",
+              "sound": "https://www.diki.pl/images-common/en/mp3/memory_stick.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "wetknąć, patyk",
+          "en": [
+            {
+              "text": "stick",
+              "sound": "https://www.diki.pl/images-common/en/mp3/stick.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "prawo jazdy",
+          "en": [
+            {
+              "text": "driving licence",
+              "sound": "https://www.diki.pl/images-common/en/mp3/driving_licence.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "odpady, marnować",
+          "en": [
+            {
+              "text": "waste",
+              "sound": "https://www.diki.pl/images-common/en/mp3/waste.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "śmieci",
+          "en": [
+            {
+              "text": "rubbish",
+              "sound": "https://www.diki.pl/images-common/en/mp3/rubbish.mp3"
+            },
+            {
+              "text": "litter",
+              "sound": "https://www.diki.pl/images-common/en/mp3/litter.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "miejsce, przestrzeń, kosmos",
+          "en": [
+            {
+              "text": "space",
+              "sound": "https://www.diki.pl/images-common/en/mp3/space.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "cygan",
+          "en": [
+            {
+              "text": "gypsy",
+              "sound": "https://www.diki.pl/images-common/en/mp3/gypsy.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "leżeć, kłamać",
+          "en": [
+            {
+              "text": "lie",
+              "sound": "https://www.diki.pl/images-common/en/mp3/lie.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kłamca",
+          "en": [
+            {
+              "text": "liar",
+              "sound": "https://www.diki.pl/images-common/en/mp3/liar.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "prawnik",
+          "en": [
+            {
+              "text": "lawyer",
+              "sound": "https://www.diki.pl/images-common/en/mp3/lawyer.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "Ukraina",
+          "en": [
+            {
+              "text": "Ukraine",
+              "sound": "https://www.diki.pl/images-common/en/mp3/ukraine.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "grać, odgrywać, zachowywać się",
+          "en": [
+            {
+              "text": "act",
+              "sound": null
+            }
+          ]
+        },
+        {
+          "pl": "zlew, tonąć",
+          "en": [
+            {
+              "text": "sink",
+              "sound": null
+            }
+          ]
+        },
+        {
+          "pl": "grzech",
+          "en": [
+            {
+              "text": "sin",
+              "sound": null
+            }
+          ]
+        },
+        {
+          "pl": "czekać na",
+          "en": [
+            {
+              "text": "wait for",
+              "sound": null
+            }
+          ]
+        },
+        {
+          "pl": "rzeka",
+          "en": [
+            {
+              "text": "river",
+              "sound": "https://www.diki.pl/images-common/en/mp3/river.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "okrągły, okrążyć",
+          "en": [
+            {
+              "text": "round",
+              "sound": "https://www.diki.pl/images-common/en/mp3/round.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "żebro",
+          "en": [
+            {
+              "text": "rib",
+              "sound": "https://www.diki.pl/images-common/en/mp3/rib.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "wydawać się",
+          "en": [
+            {
+              "text": "seem",
+              "sound": "https://www.diki.pl/images-common/en/mp3/seem.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "klejnot",
+          "en": [
+            {
+              "text": "jewel",
+              "sound": "https://www.diki.pl/images-common/en/mp3/jewel.mp3"
+            },
+            {
+              "text": "gem",
+              "sound": "https://www.diki.pl/images-common/en/mp3/gem.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "mnich",
+          "en": [
+            {
+              "text": "monk",
+              "sound": "https://www.diki.pl/images-common/en/mp3/monk.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "ksiądz",
+          "en": [
+            {
+              "text": "priest",
+              "sound": "https://www.diki.pl/images-common/en/mp3/priest.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "małpa",
+          "en": [
+            {
+              "text": "monkey",
+              "sound": "https://www.diki.pl/images-common/en/mp3/monkey.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "opalenizna",
+          "en": [
+            {
+              "text": "tan",
+              "sound": "https://www.diki.pl/images-common/en/mp3/tan.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "rysować",
+          "en": [
+            {
+              "text": "draw",
+              "sound": "https://www.diki.pl/images-common/en/mp3/draw.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "wanna",
+          "en": [
+            {
+              "text": "tub",
+              "sound": "https://www.diki.pl/images-common/en/mp3/tub.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "siłownia, sala gimnastyczna",
+          "en": [
+            {
+              "text": "gym",
+              "sound": "https://www.diki.pl/images-common/en/mp3/gym.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kieszeń",
+          "en": [
+            {
+              "text": "pocket",
+              "sound": "https://www.diki.pl/images-common/en/mp3/pocket.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "rura, fajka",
+          "en": [
+            {
+              "text": "pipe",
+              "sound": "https://www.diki.pl/images-common/en/mp3/pipe.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "silnik",
+          "en": [
+            {
+              "text": "engine",
+              "sound": "https://www.diki.pl/images-common/en/mp3/engine.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "stolica",
+          "en": [
+            {
+              "text": "capital",
+              "sound": "https://www.diki.pl/images-common/en/mp3/capital.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "uczyć się",
+          "en": [
+            {
+              "text": "learn",
+              "sound": "https://www.diki.pl/images-common/en/mp3/learn.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "uczyć kogoś",
+          "en": [
+            {
+              "text": "teach",
+              "sound": "https://www.diki.pl/images-common/en/mp3/teach.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "dobrze się bawić",
+          "en": [
+            {
+              "text": "have fun",
+              "sound": "https://www.diki.pl/images-common/en/mp3/have_fun.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "co, jaki",
+          "en": [
+            {
+              "text": "what",
+              "sound": "https://www.diki.pl/images-common/en/mp3/what.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "jak",
+          "en": [
+            {
+              "text": "how",
+              "sound": "https://www.diki.pl/images-common/en/mp3/how.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "jak dużo (policzalne)",
+          "en": [
+            {
+              "text": "how many",
+              "sound": "https://www.diki.pl/images-common/en/mp3/how_many.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "jak dużo (niepoliczalne)",
+          "en": [
+            {
+              "text": "how much",
+              "sound": "https://www.diki.pl/images-common/en/mp3/how_much.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "dlaczego",
+          "en": [
+            {
+              "text": "why",
+              "sound": "https://www.diki.pl/images-common/en/mp3/why.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kto",
+          "en": [
+            {
+              "text": "who",
+              "sound": "https://www.diki.pl/images-common/en/mp3/who.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kto, który (rzeczy)",
+          "en": [
+            {
+              "text": "which",
+              "sound": "https://www.diki.pl/images-common/en/mp3/which.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kiedy",
+          "en": [
+            {
+              "text": "when",
+              "sound": "https://www.diki.pl/images-common/en/mp3/when.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "gdzie",
+          "en": [
+            {
+              "text": "where",
+              "sound": "https://www.diki.pl/images-common/en/mp3/where.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "wnuczka",
+          "en": [
+            {
+              "text": "granddaughter",
+              "sound": "https://www.diki.pl/images-common/en/mp3/granddaughter.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "świętować",
+          "en": [
+            {
+              "text": "celebrate",
+              "sound": "https://www.diki.pl/images-common/en/mp3/celebrate.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "przygotować",
+          "en": [
+            {
+              "text": "prepare",
+              "sound": "https://www.diki.pl/images-common/en/mp3/prepare.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "woleć",
+          "en": [
+            {
+              "text": "prefer",
+              "sound": "https://www.diki.pl/images-common/en/mp3/prefer.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "poduszka ozdobna",
+          "en": [
+            {
+              "text": "cushion",
+              "sound": "https://www.diki.pl/images-common/en/mp3/cushion.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "poduszka",
+          "en": [
+            {
+              "text": "pillow",
+              "sound": "https://www.diki.pl/images-common/en/mp3/pillow.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "imponujący",
+          "en": [
+            {
+              "text": "impressive",
+              "sound": "https://www.diki.pl/images-common/en/mp3/impressive.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "sąsiad",
+          "en": [
+            {
+              "text": "neighbour",
+              "sound": "https://www.diki.pl/images-common/en/mp3/neighbour.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "przynajmniej",
+          "en": [
+            {
+              "text": "at least",
+              "sound": "https://www.diki.pl/images-common/en/mp3/at_least.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pogoda",
+          "en": [
+            {
+              "text": "weather",
+              "sound": "https://www.diki.pl/images-common/en/mp3/weather.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "jaka jest pogoda",
+          "en": [
+            {
+              "text": "what is the weather like",
+              "sound": null
+            }
+          ]
+        },
+        {
+          "pl": "zależeć od, polegać na",
+          "en": [
+            {
+              "text": "depend on",
+              "sound": "https://www.diki.pl/images-common/en/mp3/depend_on.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "myśleć",
+          "en": [
+            {
+              "text": "think",
+              "sound": "https://www.diki.pl/images-common/en/mp3/think.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "powtarzać",
+          "en": [
+            {
+              "text": "repeat",
+              "sound": "https://www.diki.pl/images-common/en/mp3/repeat.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "znaczyć, mieć na myśli",
+          "en": [
+            {
+              "text": "mean",
+              "sound": "https://www.diki.pl/images-common/en/mp3/mean.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "nurkować, skakać do wody",
+          "en": [
+            {
+              "text": "dive",
+              "sound": "https://www.diki.pl/images-common/en/mp3/dive.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "ten sam, taki sam",
+          "en": [
+            {
+              "text": "the same",
+              "sound": "https://www.diki.pl/images-common/en/mp3/the_same.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "kształt",
+          "en": [
+            {
+              "text": "shape",
+              "sound": "https://www.diki.pl/images-common/en/mp3/shape.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "sławny z ",
+          "en": [
+            {
+              "text": "famous for",
+              "sound": null
+            }
+          ]
+        },
+        {
+          "pl": "ślimak",
+          "en": [
+            {
+              "text": "snail",
+              "sound": "https://www.diki.pl/images-common/en/mp3/snail.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "pierogi",
+          "en": [
+            {
+              "text": "dumplings",
+              "sound": "https://www.diki.pl/images-common/en/mp3/dumplings.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "rodzina królewska",
+          "en": [
+            {
+              "text": "Royalty",
+              "sound": "https://www.diki.pl/images-common/en/mp3/royalty.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "północ",
+          "en": [
+            {
+              "text": "north",
+              "sound": "https://www.diki.pl/images-common/en/mp3/north.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "południe",
+          "en": [
+            {
+              "text": "south",
+              "sound": "https://www.diki.pl/images-common/en/mp3/south.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "wschód",
+          "en": [
+            {
+              "text": "east",
+              "sound": "https://www.diki.pl/images-common/en/mp3/east.mp3"
+            }
+          ]
+        },
+        {
+          "pl": "zachód",
+          "en": [
+            {
+              "text": "west",
+              "sound": "https://www.diki.pl/images-common/en/mp3/west.mp3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

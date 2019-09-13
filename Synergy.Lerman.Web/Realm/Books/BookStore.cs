@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using JetBrains.Annotations;
 using Synergy.Lerman.Realm.Books.Reading;
 using Synergy.Lerman.Realm.Infrastructure;
 
@@ -8,7 +10,7 @@ namespace Synergy.Lerman.Realm.Books
 {
     public static class BookStore
     {
-        private static readonly Dictionary<string, Book> bookStore = new Dictionary<string, Book>();
+        private static readonly List<Book> bookStore = new List<Book>();
 
         public static void Read(string path)
         {
@@ -17,15 +19,17 @@ namespace Synergy.Lerman.Realm.Books
             foreach(var filePath in files)
             {
                 var book = BookReader.Read(filePath);
-                bookStore.Add(book.Name, book);
+                bookStore.Add(book);
             }
         }
 
+        [NotNull, ItemNotNull, Pure]
         public static List<Book> GetBooks()
         {
-            return bookStore.Values.ToList();
+            return bookStore;
         }
 
+        [NotNull, Pure]
         public static Book RandomBook()
         {
             var books = GetBooks();
@@ -33,14 +37,36 @@ namespace Synergy.Lerman.Realm.Books
             return books[bookIndex];
         }
 
-        public static Book GetBook(string book)
+        [CanBeNull, Pure]
+        public static Book FindBook(string bookName)
         {
-            return bookStore[book];
+            return bookStore.FirstOrDefault(book => book.Name == bookName);
         }
 
-        public static List<Category> GetCategories()
+        [NotNull, Pure]
+        public static Book GetBook(string name)
         {
-            return bookStore.Values.SelectMany(book => book.Categories).ToList();
+            return bookStore.First(book => book.Name == name);
+        }
+
+        [NotNull, Pure]
+        public static Book GetBookById(Guid id)
+        {
+            return bookStore.First(book => book.Id == id);
+        }
+
+        [NotNull, Pure]
+        public static Category GetCategory(Guid id)
+        {
+            return bookStore.SelectMany(b => b.Categories).First(c => c.Id == id);
+        }
+
+        public static void BookWasChanged(Book book)
+        {
+            if (bookStore.Contains(book))
+                return;
+
+            bookStore.Add(book);
         }
     }
 }

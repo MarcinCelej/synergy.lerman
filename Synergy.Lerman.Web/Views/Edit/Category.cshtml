@@ -1,0 +1,51 @@
+﻿@model EditCategoryModel
+@{
+    ViewBag.Title = "Edit category - " + Model.Name;
+}
+
+<div>
+    <div class="panel panel-default text-center">
+        <div class="panel-heading">
+            <p>TODO: book name</p>
+            @using (@Html.BeginForm("CategoryUpdate", "Edit", FormMethod.Post, new {@class = "form-horizontal"}))
+            {
+                @Html.HiddenFor(category => category.Id)
+                <div class="form-group">
+                    <label for="Name" class="col-sm-2 control-label">Category title</label>
+                    @Html.TextBoxFor(category => category.Name, new {@class = "form-control"})
+                </div>
+                <button type="submit" class="btn btn-success btn-lg">Save</button>
+            }
+        </div>
+        <div class="panel-body">
+            <div>
+                <a type="button" class="btn btn-success" style="margin-bottom: 10px"
+                   href="@Url.Action(nameof(EditController.WordNew), "Edit", new {categoryId = Model.Id})">
+                    NEW <span class="glyphicon glyphicon-plus"></span>
+                </a>
+            </div>
+            @foreach (var word in this.Model.Words)
+            {
+                <div>
+                    <a style="margin-bottom: 10px"
+                       href="@Url.Action(nameof(EditController.Word), "Edit", new {categoryId = Model.Id, name = word.Polish})">
+                        @word.GetPolishPhrase() &raquo;
+                    </a>
+                </div>
+            }
+        </div>
+        <div class="panel-footer">
+            <div class="row">
+                    
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@*<div class="text-center">
+        <a type="button" role="button" class="btn btn-primary btn-lg" style="margin-bottom:10px"
+           href="@Url.Action(nameof(HomeController.Books), "Home")">
+            &laquo; Books
+        </a>
+    </div>*@
